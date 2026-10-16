@@ -1,0 +1,38 @@
+{
+ "frozen_utc": "2026-10-16T17:10:27+00:00",
+ "blind_sha256": "136ffc28425ec473c349e9e1e5d210e2df5d31d821412c022e5cecc7b5adf9cd",
+ "blind_n": 8733,
+ "blind_classes": {
+  "Pathogenic": 4868,
+  "Benign": 1577,
+  "Likely benign": 1307,
+  "Uncertain significance": 774,
+  "Likely pathogenic": 207
+ },
+ "blind_panels": {
+  "ENIGMA (BRCA1, BRCA2)": 6031,
+  "InSiGHT (mismatch repair)": 2113,
+  "CFTR2": 254,
+  "ClinGen RASopathy expert panel": 232,
+  "ClinGen inherited cardiomyopathy expert panel": 102,
+  "PharmGKB": 1
+ },
+ "blind_genes": 17,
+ "dev_n": 3300,
+ "dev_classes": {
+  "Likely benign": 700,
+  "Pathogenic": 700,
+  "Benign": 700,
+  "Uncertain significance": 700,
+  "Likely pathogenic": 500
+ },
+ "dev_genes": 1112,
+ "pool_n": 269419,
+ "pool_classes": {
+  "Uncertain significance": 137366,
+  "Likely benign": 71099,
+  "Benign": 23290,
+  "Pathogenic": 21179,
+  "Likely pathogenic": 16485
+ }
+}

@@ -1,0 +1,309 @@
+[
+ {
+  "id": "B01",
+  "question": "How should a canonical splice variant be graded if skipping the exon keeps the reading frame?",
+  "targets": [
+   "guidance:G04"
+  ],
+  "required": [
+   "frame"
+  ]
+ },
+ {
+  "id": "B02",
+  "question": "What prior probability does the ClinGen calibration of in silico tools use?",
+  "targets": [
+   "guidance:G17"
+  ],
+  "required": [
+   "0.0441"
+  ]
+ },
+ {
+  "id": "B03",
+  "question": "Which criteria are deprecated by ClinGen SVI?",
+  "targets": [
+   "guidance:G19"
+  ],
+  "required": [
+   "BP6"
+  ]
+ },
+ {
+  "id": "B04",
+  "question": "What is the filtering allele frequency?",
+  "targets": [
+   "guidance:G30",
+   "guidance:G21"
+  ],
+  "required": [
+   "filtering"
+  ]
+ },
+ {
+  "id": "B05",
+  "question": "How many points make a variant benign in the point system?",
+  "targets": [
+   "guidance:G27"
+  ],
+  "required": [
+   "minus seven"
+  ]
+ },
+ {
+  "id": "B06",
+  "question": "When does a premature stop escape nonsense mediated decay?",
+  "targets": [
+   "guidance:G03"
+  ],
+  "required": [
+   "last exon"
+  ]
+ },
+ {
+  "id": "B07",
+  "question": "What evidence does PP4 require?",
+  "targets": [
+   "guidance:G18"
+  ],
+  "required": [
+   "PP4"
+  ]
+ },
+ {
+  "id": "B08",
+  "question": "How do the 2015 combining rules handle conflicting pathogenic and benign evidence?",
+  "targets": [
+   "guidance:G29",
+   "guidance:G75"
+  ],
+  "required": [
+   "uncertain"
+  ]
+ },
+ {
+  "id": "B09",
+  "question": "Why should gene disease validity be checked before classifying a variant?",
+  "targets": [
+   "guidance:G31"
+  ],
+  "required": [
+   "validity"
+  ]
+ },
+ {
+  "id": "B10",
+  "question": "What is type two circularity in predictor evaluation?",
+  "targets": [
+   "guidance:G45"
+  ],
+  "required": [
+   "circularity"
+  ]
+ },
+ {
+  "id": "B11",
+  "question": "How does the InSiGHT group classify mismatch repair variants?",
+  "targets": [
+   "guidance:G38"
+  ],
+  "required": [
+   "InSiGHT"
+  ]
+ },
+ {
+  "id": "B12",
+  "question": "Can the germline criteria be used for tumour only findings?",
+  "targets": [
+   "guidance:G54"
+  ],
+  "required": [
+   "somatic"
+  ]
+ },
+ {
+  "id": "B13",
+  "question": "What diseases are associated with PTEN?",
+  "targets": [
+   "gene:PTEN"
+  ],
+  "required": [
+   "PTEN"
+  ]
+ },
+ {
+  "id": "B14",
+  "question": "Is loss of function the mechanism for MSH2?",
+  "targets": [
+   "gene:MSH2"
+  ],
+  "required": [
+   "MSH2"
+  ]
+ },
+ {
+  "id": "B15",
+  "question": "What is the pLI of the NF1 gene?",
+  "targets": [
+   "gene:NF1"
+  ],
+  "required": [
+   "NF1"
+  ]
+ },
+ {
+  "id": "B16",
+  "question": "Which inheritance is recorded for GJB2?",
+  "targets": [
+   "gene:GJB2"
+  ],
+  "required": [
+   "GJB2"
+  ]
+ },
+ {
+  "id": "B17",
+  "question": "How many benign missense variants does RYR1 have in the evidence pool?",
+  "targets": [
+   "gene:RYR1"
+  ],
+  "required": [
+   "RYR1"
+  ]
+ },
+ {
+  "id": "B18",
+  "question": "What conditions are linked to COL1A1?",
+  "targets": [
+   "gene:COL1A1"
+  ],
+  "required": [
+   "COL1A1"
+  ]
+ },
+ {
+  "id": "B19",
+  "question": "Is KRAS a gene where PVS1 applies?",
+  "targets": [
+   "gene:KRAS",
+   "guidance:G39",
+   "guidance:G42"
+  ],
+  "required": [
+   "KRAS"
+  ]
+ },
+ {
+  "id": "B20",
+  "question": "Which phenotypes describe Tay-Sachs disease?",
+  "targets": [
+   "disease:OMIM:272800",
+   "disease:ORPHA:845"
+  ],
+  "required": [
+   "Tay"
+  ]
+ },
+ {
+  "id": "B21",
+  "question": "What are the features of neurofibromatosis type 1?",
+  "targets": [
+   "disease:OMIM:162200"
+  ],
+  "required": [
+   "neurofibromatosis"
+  ]
+ },
+ {
+  "id": "B22",
+  "question": "What inheritance is annotated for Fabry disease?",
+  "targets": [
+   "disease:OMIM:301500",
+   "disease:ORPHA:324"
+  ],
+  "required": [
+   "Fabry"
+  ]
+ },
+ {
+  "id": "B23",
+  "question": "What does global developmental delay mean as a phenotype term?",
+  "targets": [
+   "hpo:HP:0001263"
+  ],
+  "required": [
+   "developmental"
+  ]
+ },
+ {
+  "id": "B24",
+  "question": "Which phenotypes are annotated for Wilson disease?",
+  "targets": [
+   "disease:OMIM:277900",
+   "disease:ORPHA:905"
+  ],
+  "required": [
+   "Wilson"
+  ]
+ },
+ {
+  "id": "B25",
+  "question": "What is an atrial septal defect?",
+  "targets": [
+   "hpo:HP:0001631"
+  ],
+  "required": [
+   "septal"
+  ]
+ },
+ {
+  "id": "B26",
+  "question": "Which study reported haploinsufficiency for FKBP6 in Williams-Beuren syndrome?",
+  "targets": [
+   "lit:tmvar:15770126"
+  ],
+  "required": [
+   "FKBP6"
+  ]
+ },
+ {
+  "id": "B27",
+  "question": "Were two novel TSH beta subunit mutations described in congenital central hypothyroidism?",
+  "targets": [
+   "lit:tmvar:20534762"
+  ],
+  "required": [
+   "TSH"
+  ]
+ },
+ {
+  "id": "B28",
+  "question": "Is genetic variation near HNF4A associated with type 2 diabetes?",
+  "targets": [
+   "lit:osiris:15047633"
+  ],
+  "required": [
+   "hepatocyte nuclear factor"
+  ]
+ },
+ {
+  "id": "B29",
+  "question": "Which study looked at APOA5 variants and coronary heart disease progression?",
+  "targets": [
+   "lit:osiris:14729863"
+  ],
+  "required": [
+   "APOA5"
+  ]
+ },
+ {
+  "id": "B30",
+  "question": "Was SQSTM1 evaluated in Belgian patients with Paget disease?",
+  "targets": [
+   "lit:osiris:15164150"
+  ],
+  "required": [
+   "SQSTM1"
+  ]
+ }
+]

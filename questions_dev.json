@@ -1,0 +1,630 @@
+[
+ {
+  "id": "D01",
+  "question": "When should PVS1 be downgraded for a nonsense variant near the end of a gene?",
+  "targets": [
+   "guidance:G02",
+   "guidance:G03",
+   "guidance:G62"
+  ],
+  "required": [
+   "decay"
+  ]
+ },
+ {
+  "id": "D02",
+  "question": "What is the 50 nucleotide rule for nonsense mediated decay?",
+  "targets": [
+   "guidance:G03"
+  ],
+  "required": [
+   "50"
+  ]
+ },
+ {
+  "id": "D03",
+  "question": "At what strength should PM2 be applied after the 2020 SVI recommendation?",
+  "targets": [
+   "guidance:G11"
+  ],
+  "required": [
+   "PM2",
+   "supporting"
+  ]
+ },
+ {
+  "id": "D04",
+  "question": "Why were PP5 and BP6 retired?",
+  "targets": [
+   "guidance:G19"
+  ],
+  "required": [
+   "PP5"
+  ]
+ },
+ {
+  "id": "D05",
+  "question": "How many points does a strong criterion carry in the Bayesian point system?",
+  "targets": [
+   "guidance:G27"
+  ],
+  "required": [
+   "points"
+  ]
+ },
+ {
+  "id": "D06",
+  "question": "What point total is needed for a likely pathogenic classification?",
+  "targets": [
+   "guidance:G27",
+   "guidance:G69"
+  ],
+  "required": [
+   "six"
+  ]
+ },
+ {
+  "id": "D07",
+  "question": "What allele frequency gives stand alone benign evidence under BA1?",
+  "targets": [
+   "guidance:G20"
+  ],
+  "required": [
+   "five percent"
+  ]
+ },
+ {
+  "id": "D08",
+  "question": "Which variants are exceptions to BA1?",
+  "targets": [
+   "guidance:G20"
+  ],
+  "required": [
+   "HFE"
+  ]
+ },
+ {
+  "id": "D09",
+  "question": "How is the maximum credible allele frequency calculated for BS1?",
+  "targets": [
+   "guidance:G21",
+   "guidance:G64"
+  ],
+  "required": [
+   "maximum credible"
+  ]
+ },
+ {
+  "id": "D10",
+  "question": "When can PS1 be used for splicing variants?",
+  "targets": [
+   "guidance:G06",
+   "guidance:G46"
+  ],
+  "required": [
+   "PS1",
+   "splic"
+  ]
+ },
+ {
+  "id": "D11",
+  "question": "How many informative meioses are needed for moderate segregation evidence?",
+  "targets": [
+   "guidance:G15"
+  ],
+  "required": [
+   "meioses"
+  ]
+ },
+ {
+  "id": "D12",
+  "question": "What likelihood ratio does a predictor need for strong PP3 evidence?",
+  "targets": [
+   "guidance:G17"
+  ],
+  "required": [
+   "33"
+  ]
+ },
+ {
+  "id": "D13",
+  "question": "Can PM1 and PP3 be combined at full strength?",
+  "targets": [
+   "guidance:G10",
+   "guidance:G72"
+  ],
+  "required": [
+   "PM1",
+   "PP3"
+  ]
+ },
+ {
+  "id": "D14",
+  "question": "How are de novo observations scored with the SVI points scale?",
+  "targets": [
+   "guidance:G07"
+  ],
+  "required": [
+   "de novo",
+   "points"
+  ]
+ },
+ {
+  "id": "D15",
+  "question": "How does the PM3 points system count phase unknown observations?",
+  "targets": [
+   "guidance:G12"
+  ],
+  "required": [
+   "PM3"
+  ]
+ },
+ {
+  "id": "D16",
+  "question": "What does BP7 require for intronic variants?",
+  "targets": [
+   "guidance:G26",
+   "guidance:G46"
+  ],
+  "required": [
+   "BP7"
+  ]
+ },
+ {
+  "id": "D17",
+  "question": "Why is BS2 unreliable for late onset disorders?",
+  "targets": [
+   "guidance:G22",
+   "guidance:G51"
+  ],
+  "required": [
+   "BS2"
+  ]
+ },
+ {
+  "id": "D18",
+  "question": "How should initiation codon variants be weighted under PVS1?",
+  "targets": [
+   "guidance:G05"
+  ],
+  "required": [
+   "initiation codon"
+  ]
+ },
+ {
+  "id": "D19",
+  "question": "What makes an in frame deletion qualify for BP3 instead of PM4?",
+  "targets": [
+   "guidance:G24",
+   "guidance:G13",
+   "guidance:G63"
+  ],
+  "required": [
+   "repetitive"
+  ]
+ },
+ {
+  "id": "D20",
+  "question": "What is the posterior probability threshold for likely pathogenic?",
+  "targets": [
+   "guidance:G28"
+  ],
+  "required": [
+   "posterior"
+  ]
+ },
+ {
+  "id": "D21",
+  "question": "What does the ClinVar review status of three stars mean?",
+  "targets": [
+   "guidance:G33"
+  ],
+  "required": [
+   "expert panel"
+  ]
+ },
+ {
+  "id": "D22",
+  "question": "How should functional assay strength be decided for PS3?",
+  "targets": [
+   "guidance:G08"
+  ],
+  "required": [
+   "OddsPath"
+  ]
+ },
+ {
+  "id": "D23",
+  "question": "Why should a single predictor be chosen in advance?",
+  "targets": [
+   "guidance:G66",
+   "guidance:G17"
+  ],
+  "required": [
+   "predictor"
+  ]
+ },
+ {
+  "id": "D24",
+  "question": "Are copy number variants covered by the sequence variant criteria?",
+  "targets": [
+   "guidance:G53"
+  ],
+  "required": [
+   "copy number"
+  ]
+ },
+ {
+  "id": "D25",
+  "question": "How does the ENIGMA consortium classify BRCA1 variants?",
+  "targets": [
+   "guidance:G37"
+  ],
+  "required": [
+   "ENIGMA"
+  ]
+ },
+ {
+  "id": "D26",
+  "question": "What diseases are associated with CFTR and what is the inheritance?",
+  "targets": [
+   "gene:CFTR",
+   "guidance:G41"
+  ],
+  "required": [
+   "CFTR"
+  ]
+ },
+ {
+  "id": "D27",
+  "question": "Is loss of function an established mechanism for MYH7?",
+  "targets": [
+   "gene:MYH7",
+   "guidance:G40"
+  ],
+  "required": [
+   "MYH7"
+  ]
+ },
+ {
+  "id": "D28",
+  "question": "What is the gene constraint of BRCA2?",
+  "targets": [
+   "gene:BRCA2"
+  ],
+  "required": [
+   "BRCA2",
+   "pLI"
+  ]
+ },
+ {
+  "id": "D29",
+  "question": "How many pathogenic truncating variants does MLH1 have in the evidence pool?",
+  "targets": [
+   "gene:MLH1"
+  ],
+  "required": [
+   "MLH1",
+   "truncating"
+  ]
+ },
+ {
+  "id": "D30",
+  "question": "Is PP2 applicable to missense variants in PTPN11?",
+  "targets": [
+   "gene:PTPN11",
+   "guidance:G16",
+   "guidance:G39"
+  ],
+  "required": [
+   "PTPN11"
+  ]
+ },
+ {
+  "id": "D31",
+  "question": "Which disorders are linked to the FBN1 gene?",
+  "targets": [
+   "gene:FBN1"
+  ],
+  "required": [
+   "FBN1"
+  ]
+ },
+ {
+  "id": "D32",
+  "question": "What inheritance pattern is recorded for ATM?",
+  "targets": [
+   "gene:ATM"
+  ],
+  "required": [
+   "ATM"
+  ]
+ },
+ {
+  "id": "D33",
+  "question": "Does TP53 have curated haploinsufficiency?",
+  "targets": [
+   "gene:TP53"
+  ],
+  "required": [
+   "TP53"
+  ]
+ },
+ {
+  "id": "D34",
+  "question": "How many exons are in the anchored exon model for SCN5A?",
+  "targets": [
+   "gene:SCN5A"
+  ],
+  "required": [
+   "SCN5A",
+   "exon"
+  ]
+ },
+ {
+  "id": "D35",
+  "question": "What is the missense spectrum for KCNQ1 in the evidence pool?",
+  "targets": [
+   "gene:KCNQ1"
+  ],
+  "required": [
+   "KCNQ1",
+   "missense"
+  ]
+ },
+ {
+  "id": "D36",
+  "question": "Which diseases are associated with LDLR?",
+  "targets": [
+   "gene:LDLR"
+  ],
+  "required": [
+   "LDLR"
+  ]
+ },
+ {
+  "id": "D37",
+  "question": "What is the constraint of the DMD gene?",
+  "targets": [
+   "gene:DMD"
+  ],
+  "required": [
+   "DMD"
+  ]
+ },
+ {
+  "id": "D38",
+  "question": "Is BP1 applicable to missense variants in APC?",
+  "targets": [
+   "gene:APC",
+   "guidance:G16"
+  ],
+  "required": [
+   "APC"
+  ]
+ },
+ {
+  "id": "D39",
+  "question": "What conditions are associated with SCN1A?",
+  "targets": [
+   "gene:SCN1A"
+  ],
+  "required": [
+   "SCN1A"
+  ]
+ },
+ {
+  "id": "D40",
+  "question": "Which genes cause Noonan syndrome according to the RASopathy panel?",
+  "targets": [
+   "guidance:G39",
+   "disease:OMIM:163950"
+  ],
+  "required": [
+   "Noonan"
+  ]
+ },
+ {
+  "id": "D41",
+  "question": "What are the clinical features of Marfan syndrome?",
+  "targets": [
+   "disease:OMIM:154700"
+  ],
+  "required": [
+   "Marfan"
+  ]
+ },
+ {
+  "id": "D42",
+  "question": "Which phenotypes characterise Wolman disease?",
+  "targets": [
+   "disease:OMIM:620151",
+   "disease:ORPHA:75233"
+  ],
+  "required": [
+   "Wolman"
+  ]
+ },
+ {
+  "id": "D43",
+  "question": "What is the inheritance of hemochromatosis type 1?",
+  "targets": [
+   "disease:OMIM:235200",
+   "guidance:G20"
+  ],
+  "required": [
+   "hemochromatosis"
+  ]
+ },
+ {
+  "id": "D44",
+  "question": "Which features are annotated for Duchenne muscular dystrophy?",
+  "targets": [
+   "disease:OMIM:310200"
+  ],
+  "required": [
+   "Duchenne"
+  ]
+ },
+ {
+  "id": "D45",
+  "question": "What does the phenotype term arachnodactyly mean?",
+  "targets": [
+   "hpo:HP:0001166"
+  ],
+  "required": [
+   "arachnodactyly"
+  ]
+ },
+ {
+  "id": "D46",
+  "question": "Define ectopia lentis.",
+  "targets": [
+   "hpo:HP:0001083"
+  ],
+  "required": [
+   "lens"
+  ]
+ },
+ {
+  "id": "D47",
+  "question": "What are the features of Holt-Oram syndrome?",
+  "targets": [
+   "disease:OMIM:142900",
+   "disease:ORPHA:392"
+  ],
+  "required": [
+   "Holt"
+  ]
+ },
+ {
+  "id": "D48",
+  "question": "Which phenotypes are listed for Brugada syndrome 1?",
+  "targets": [
+   "disease:OMIM:601144"
+  ],
+  "required": [
+   "Brugada"
+  ]
+ },
+ {
+  "id": "D49",
+  "question": "What is macrocephaly?",
+  "targets": [
+   "hpo:HP:0000256"
+  ],
+  "required": [
+   "macrocephaly"
+  ]
+ },
+ {
+  "id": "D50",
+  "question": "What inheritance is annotated for Rett syndrome?",
+  "targets": [
+   "disease:OMIM:312750"
+  ],
+  "required": [
+   "Rett"
+  ]
+ },
+ {
+  "id": "D51",
+  "question": "Which report describes the F11 Asp506Gly mutation in a Korean woman?",
+  "targets": [
+   "lit:tmvar:22016685"
+  ],
+  "required": [
+   "Asp506Gly"
+  ]
+ },
+ {
+  "id": "D52",
+  "question": "Is there a study of SLC6A8 deficiency in X linked mental retardation?",
+  "targets": [
+   "lit:seth:15154114"
+  ],
+  "required": [
+   "SLC6A8"
+  ]
+ },
+ {
+  "id": "D53",
+  "question": "What was found about a cryptic splice mutation in PKP2?",
+  "targets": [
+   "lit:seth:17041889"
+  ],
+  "required": [
+   "PKP2"
+  ]
+ },
+ {
+  "id": "D54",
+  "question": "Which paper reported LIPA Tyr22X in Wolman disease?",
+  "targets": [
+   "lit:seth:8956047"
+  ],
+  "required": [
+   "LIPA"
+  ]
+ },
+ {
+  "id": "D55",
+  "question": "What did the study of CAPN3 transcripts in LGMD2A patients show?",
+  "targets": [
+   "lit:tmvar:17157502"
+  ],
+  "required": [
+   "CAPN3"
+  ]
+ },
+ {
+  "id": "D56",
+  "question": "Which study examined manifesting carriers of DMD mutations?",
+  "targets": [
+   "lit:tmvar:20630757"
+  ],
+  "required": [
+   "manifesting carriers"
+  ]
+ },
+ {
+  "id": "D57",
+  "question": "Does a RAD51 polymorphism modify breast cancer risk in BRCA2 carriers?",
+  "targets": [
+   "lit:osiris:15138485"
+  ],
+  "required": [
+   "RAD51"
+  ]
+ },
+ {
+  "id": "D58",
+  "question": "What variants of the SCN5A gene were studied in Han Chinese?",
+  "targets": [
+   "lit:osiris:15161528"
+  ],
+  "required": [
+   "SCN5A"
+  ]
+ },
+ {
+  "id": "D59",
+  "question": "Which report described a new mutation in the ARSA gene with adult onset metachromatic leukodystrophy?",
+  "targets": [
+   "lit:tmvar:15710861"
+  ],
+  "required": [
+   "ARSA"
+  ]
+ },
+ {
+  "id": "D60",
+  "question": "What did the study of the WTX gene in Wilms tumours find?",
+  "targets": [
+   "lit:tmvar:18391980"
+  ],
+  "required": [
+   "WTX"
+  ]
+ }
+]
