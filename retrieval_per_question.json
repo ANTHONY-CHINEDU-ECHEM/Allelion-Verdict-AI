@@ -1,0 +1,2076 @@
+{
+ "dev": [
+  {
+   "id": "D01",
+   "question": "When should PVS1 be downgraded for a nonsense variant near the end of a gene?",
+   "gains": [
+    2,
+    2,
+    2,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   "sources": [
+    "guidance:G62",
+    "guidance:G02",
+    "guidance:G03",
+    "guidance:G37",
+    "lit:seth:18454449"
+   ]
+  },
+  {
+   "id": "D02",
+   "question": "What is the 50 nucleotide rule for nonsense mediated decay?",
+   "gains": [
+    2,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "sources": [
+    "guidance:G03",
+    "lit:tmvar:17157502",
+    "lit:tmvar:21042587",
+    "guidance:G62",
+    "lit:tmvar:16181814"
+   ]
+  },
+  {
+   "id": "D03",
+   "question": "At what strength should PM2 be applied after the 2020 SVI recommendation?",
+   "gains": [
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "sources": [
+    "guidance:G11",
+    "guidance:G08",
+    "guidance:G46",
+    "guidance:G64",
+    "guidance:G05"
+   ]
+  },
+  {
+   "id": "D04",
+   "question": "Why were PP5 and BP6 retired?",
+   "gains": [
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "sources": [
+    "guidance:G19",
+    "lit:tmvar:15680411",
+    "hpo:HP:0002172",
+    "hpo:HP:0031952",
+    "lit:tmvar:15680411"
+   ]
+  },
+  {
+   "id": "D05",
+   "question": "How many points does a strong criterion carry in the Bayesian point system?",
+   "gains": [
+    2,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   "sources": [
+    "guidance:G27",
+    "lit:variome:2386495-03-Methods-p02",
+    "guidance:G75",
+    "guidance:G69",
+    "guidance:G12"
+   ]
+  },
+  {
+   "id": "D06",
+   "question": "What point total is needed for a likely pathogenic classification?",
+   "gains": [
+    2,
+    0,
+    0,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "sources": [
+    "guidance:G69",
+    "gene:WFS1",
+    "guidance:G59",
+    "guidance:G27",
+    "guidance:G01"
+   ]
+  },
+  {
+   "id": "D07",
+   "question": "What allele frequency gives stand alone benign evidence under BA1?",
+   "gains": [
+    2,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "sources": [
+    "guidance:G20",
+    "guidance:G74",
+    "lit:tmvar:20026870",
+    "guidance:G01",
+    "hpo:HP:0002172"
+   ]
+  },
+  {
+   "id": "D08",
+   "question": "Which variants are exceptions to BA1?",
+   "gains": [
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "sources": [
+    "guidance:G20",
+    "guidance:G74",
+    "guidance:G36",
+    "lit:mf:8172877",
+    "lit:tmvar:14508191"
+   ]
+  },
+  {
+   "id": "D09",
+   "question": "How is the maximum credible allele frequency calculated for BS1?",
+   "gains": [
+    2,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "sources": [
+    "guidance:G21",
+    "guidance:G64",
+    "guidance:G30",
+    "guidance:G74",
+    "lit:seth:14691730"
+   ]
+  },
+  {
+   "id": "D10",
+   "question": "When can PS1 be used for splicing variants?",
+   "gains": [
+    2,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "sources": [
+    "guidance:G06",
+    "guidance:G46",
+    "guidance:G61",
+    "guidance:G14",
+    "lit:seth:17311297"
+   ]
+  },
+  {
+   "id": "D11",
+   "question": "How many informative meioses are needed for moderate segregation evidence?",
+   "gains": [
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "sources": [
+    "guidance:G15",
+    "guidance:G38",
+    "lit:seth:10841811",
+    "guidance:G17",
+    "guidance:G67"
+   ]
+  },
+  {
+   "id": "D12",
+   "question": "What likelihood ratio does a predictor need for strong PP3 evidence?",
+   "gains": [
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "sources": [
+    "guidance:G17",
+    "guidance:G66",
+    "guidance:G10",
+    "guidance:G36",
+    "guidance:G68"
+   ]
+  },
+  {
+   "id": "D13",
+   "question": "Can PM1 and PP3 be combined at full strength?",
+   "gains": [
+    2,
+    2,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "sources": [
+    "guidance:G10",
+    "guidance:G72",
+    "guidance:G17",
+    "guidance:G68",
+    "guidance:G36"
+   ]
+  },
+  {
+   "id": "D14",
+   "question": "How are de novo observations scored with the SVI points scale?",
+   "gains": [
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "sources": [
+    "guidance:G07",
+    "guidance:G12",
+    "lit:seth:7977360",
+    "lit:seth:9452055",
+    "lit:seth:21665002"
+   ]
+  },
+  {
+   "id": "D15",
+   "question": "How does the PM3 points system count phase unknown observations?",
+   "gains": [
+    2,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "sources": [
+    "guidance:G12",
+    "guidance:G58",
+    "lit:seth:11438995",
+    "lit:tmvar:16311014",
+    "lit:mf:2856083"
+   ]
+  },
+  {
+   "id": "D16",
+   "question": "What does BP7 require for intronic variants?",
+   "gains": [
+    2,
+    1,
+    2,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "sources": [
+    "guidance:G26",
+    "guidance:G47",
+    "guidance:G46",
+    "guidance:G48",
+    "guidance:G74"
+   ]
+  },
+  {
+   "id": "D17",
+   "question": "Why is BS2 unreliable for late onset disorders?",
+   "gains": [
+    2,
+    2,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "sources": [
+    "guidance:G22",
+    "guidance:G51",
+    "gene:C1QTNF5",
+    "guidance:G74",
+    "hpo:HP:0003584"
+   ]
+  },
+  {
+   "id": "D18",
+   "question": "How should initiation codon variants be weighted under PVS1?",
+   "gains": [
+    2,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   "sources": [
+    "guidance:G05",
+    "guidance:G02",
+    "guidance:G03",
+    "lit:osiris:15066320",
+    "lit:mf:11927566"
+   ]
+  },
+  {
+   "id": "D19",
+   "question": "What makes an in frame deletion qualify for BP3 instead of PM4?",
+   "gains": [
+    2,
+    2,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "sources": [
+    "guidance:G24",
+    "guidance:G13",
+    "guidance:G63",
+    "guidance:G49",
+    "lit:tmvar:22174939"
+   ]
+  },
+  {
+   "id": "D20",
+   "question": "What is the posterior probability threshold for likely pathogenic?",
+   "gains": [
+    2,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1
+   ],
+   "sources": [
+    "guidance:G28",
+    "gene:PPM1D",
+    "guidance:G69",
+    "disease:OMIM:617450",
+    "guidance:G64"
+   ]
+  },
+  {
+   "id": "D21",
+   "question": "What does the ClinVar review status of three stars mean?",
+   "gains": [
+    2,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "sources": [
+    "guidance:G33",
+    "gene:STAR",
+    "guidance:G36",
+    "lit:variome:1360090-03-Results-p01",
+    "hpo:HP:0025401"
+   ]
+  },
+  {
+   "id": "D22",
+   "question": "How should functional assay strength be decided for PS3?",
+   "gains": [
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "sources": [
+    "guidance:G08",
+    "guidance:G42",
+    "guidance:G36",
+    "lit:seth:19191333",
+    "lit:variome:3034663-05-Discussion-p01"
+   ]
+  },
+  {
+   "id": "D23",
+   "question": "Why should a single predictor be chosen in advance?",
+   "gains": [
+    2,
+    2,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   "sources": [
+    "guidance:G17",
+    "guidance:G66",
+    "disease:OMIM:620015",
+    "hpo:HP:0002165",
+    "lit:tmvar:19444361"
+   ]
+  },
+  {
+   "id": "D24",
+   "question": "Are copy number variants covered by the sequence variant criteria?",
+   "gains": [
+    1,
+    2,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   "sources": [
+    "guidance:G01",
+    "guidance:G53",
+    "guidance:G55",
+    "lit:seth:20506408",
+    "guidance:G73"
+   ]
+  },
+  {
+   "id": "D25",
+   "question": "How does the ENIGMA consortium classify BRCA1 variants?",
+   "gains": [
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "sources": [
+    "guidance:G37",
+    "gene:BRCA1",
+    "lit:tmvar:15668505",
+    "lit:tmvar:15668505",
+    "lit:osiris:15138485"
+   ]
+  },
+  {
+   "id": "D26",
+   "question": "What diseases are associated with CFTR and what is the inheritance?",
+   "gains": [
+    1,
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "sources": [
+    "lit:seth:20607857",
+    "gene:CFTR",
+    "lit:seth:1284538",
+    "disease:OMIM:211400",
+    "disease:OMIM:277180"
+   ]
+  },
+  {
+   "id": "D27",
+   "question": "Is loss of function an established mechanism for MYH7?",
+   "gains": [
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "sources": [
+    "gene:MYH7",
+    "lit:tmvar:21127202",
+    "disease:ORPHA:59135",
+    "disease:OMIM:192600",
+    "disease:OMIM:255160"
+   ]
+  },
+  {
+   "id": "D28",
+   "question": "What is the gene constraint of BRCA2?",
+   "gains": [
+    2,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   "sources": [
+    "gene:BRCA2",
+    "lit:seth:22473970",
+    "lit:osiris:15138485",
+    "lit:osiris:15138485",
+    "lit:seth:9634522"
+   ]
+  },
+  {
+   "id": "D29",
+   "question": "How many pathogenic truncating variants does MLH1 have in the evidence pool?",
+   "gains": [
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "sources": [
+    "gene:MLH1",
+    "lit:variome:3034663-01-Abstract-p01",
+    "lit:tmvar:17959715",
+    "lit:variome:3034663-05-Discussion-p01",
+    "lit:variome:3034663-04-Results-p01"
+   ]
+  },
+  {
+   "id": "D30",
+   "question": "Is PP2 applicable to missense variants in PTPN11?",
+   "gains": [
+    2,
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "sources": [
+    "guidance:G16",
+    "gene:PTPN11",
+    "disease:OMIM:163950",
+    "disease:OMIM:607785",
+    "disease:OMIM:156250"
+   ]
+  },
+  {
+   "id": "D31",
+   "question": "Which disorders are linked to the FBN1 gene?",
+   "gains": [
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "sources": [
+    "gene:FBN1",
+    "lit:tmvar:21976953",
+    "lit:tmvar:21976953",
+    "disease:ORPHA:2084",
+    "disease:OMIM:604308"
+   ]
+  },
+  {
+   "id": "D32",
+   "question": "What inheritance pattern is recorded for ATM?",
+   "gains": [
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "sources": [
+    "gene:ATM",
+    "lit:seth:9443866",
+    "lit:seth:12673796",
+    "disease:OMIM:208900",
+    "disease:OMIM:114480"
+   ]
+  },
+  {
+   "id": "D33",
+   "question": "Does TP53 have curated haploinsufficiency?",
+   "gains": [
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "sources": [
+    "gene:TP53",
+    "lit:seth:10477429",
+    "lit:seth:12619118",
+    "disease:OMIM:259500",
+    "lit:seth:11793474"
+   ]
+  },
+  {
+   "id": "D34",
+   "question": "How many exons are in the anchored exon model for SCN5A?",
+   "gains": [
+    2,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "sources": [
+    "gene:SCN5A",
+    "lit:osiris:15161528",
+    "lit:tmvar:19808398",
+    "disease:OMIM:603829",
+    "lit:osiris:15161528"
+   ]
+  },
+  {
+   "id": "D35",
+   "question": "What is the missense spectrum for KCNQ1 in the evidence pool?",
+   "gains": [
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "sources": [
+    "gene:KCNQ1",
+    "lit:osiris:15028050",
+    "disease:OMIM:609621",
+    "disease:ORPHA:90647",
+    "disease:OMIM:607554"
+   ]
+  },
+  {
+   "id": "D36",
+   "question": "Which diseases are associated with LDLR?",
+   "gains": [
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "sources": [
+    "gene:LDLR",
+    "lit:tmvar:22129472",
+    "disease:ORPHA:391665",
+    "lit:tmvar:22129472",
+    "disease:OMIM:143890"
+   ]
+  },
+  {
+   "id": "D37",
+   "question": "What is the constraint of the DMD gene?",
+   "gains": [
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "sources": [
+    "gene:DMD",
+    "lit:seth:15714686",
+    "lit:tmvar:20630757",
+    "lit:tmvar:20630757",
+    "disease:ORPHA:98895"
+   ]
+  },
+  {
+   "id": "D38",
+   "question": "Is BP1 applicable to missense variants in APC?",
+   "gains": [
+    2,
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "sources": [
+    "guidance:G16",
+    "gene:APC",
+    "disease:ORPHA:247806",
+    "lit:variome:2386495-03-Methods-p02",
+    "lit:variome:2386495-05-Discussion-p03"
+   ]
+  },
+  {
+   "id": "D39",
+   "question": "What conditions are associated with SCN1A?",
+   "gains": [
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "sources": [
+    "gene:SCN1A",
+    "disease:OMIM:609634",
+    "disease:ORPHA:2382",
+    "disease:OMIM:604403",
+    "disease:ORPHA:293181"
+   ]
+  },
+  {
+   "id": "D40",
+   "question": "Which genes cause Noonan syndrome according to the RASopathy panel?",
+   "gains": [
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "sources": [
+    "guidance:G39",
+    "gene:RAF1",
+    "gene:PTPN11",
+    "disease:ORPHA:648",
+    "lit:seth:14974085"
+   ]
+  },
+  {
+   "id": "D41",
+   "question": "What are the clinical features of Marfan syndrome?",
+   "gains": [
+    1,
+    2,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0
+   ],
+   "sources": [
+    "disease:ORPHA:558",
+    "disease:OMIM:154700",
+    "gene:FBN1",
+    "disease:ORPHA:284979",
+    "lit:tmvar:21976953"
+   ]
+  },
+  {
+   "id": "D42",
+   "question": "Which phenotypes characterise Wolman disease?",
+   "gains": [
+    2,
+    1,
+    2,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "sources": [
+    "disease:OMIM:620151",
+    "gene:LIPA",
+    "disease:ORPHA:75233",
+    "lit:seth:8956047",
+    "lit:seth:9259194"
+   ]
+  },
+  {
+   "id": "D43",
+   "question": "What is the inheritance of hemochromatosis type 1?",
+   "gains": [
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "sources": [
+    "disease:OMIM:235200",
+    "gene:HAMP",
+    "gene:HJV",
+    "gene:HFE",
+    "gene:TFR2"
+   ]
+  },
+  {
+   "id": "D44",
+   "question": "Which features are annotated for Duchenne muscular dystrophy?",
+   "gains": [
+    1,
+    2,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   "sources": [
+    "disease:ORPHA:98896",
+    "disease:OMIM:310200",
+    "lit:seth:9452089",
+    "gene:DMD",
+    "lit:seth:8199594"
+   ]
+  },
+  {
+   "id": "D45",
+   "question": "What does the phenotype term arachnodactyly mean?",
+   "gains": [
+    2,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   "sources": [
+    "hpo:HP:0001166",
+    "disease:OMIM:614100",
+    "lit:variome:2386495-01-Abstract-p01",
+    "guidance:G67",
+    "lit:mf:10737931"
+   ]
+  },
+  {
+   "id": "D46",
+   "question": "Define ectopia lentis.",
+   "gains": [
+    0,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   "sources": [
+    "disease:OMIM:225100",
+    "hpo:HP:0001083",
+    "gene:ADAMTSL4",
+    "lit:seth:19836009",
+    "gene:LTBP2"
+   ]
+  },
+  {
+   "id": "D47",
+   "question": "What are the features of Holt-Oram syndrome?",
+   "gains": [
+    2,
+    2,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "sources": [
+    "disease:ORPHA:392",
+    "disease:OMIM:142900",
+    "gene:TBX5",
+    "gene:MAGEL2",
+    "gene:OCA2"
+   ]
+  },
+  {
+   "id": "D48",
+   "question": "Which phenotypes are listed for Brugada syndrome 1?",
+   "gains": [
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "sources": [
+    "disease:OMIM:601144",
+    "gene:SCN1B",
+    "gene:CACNA1C",
+    "gene:GPD1L",
+    "gene:SCN3B"
+   ]
+  },
+  {
+   "id": "D49",
+   "question": "What is macrocephaly?",
+   "gains": [
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "sources": [
+    "hpo:HP:0000256",
+    "hpo:HP:0005490",
+    "gene:EXT2",
+    "lit:seth:17668385",
+    "hpo:HP:0004481"
+   ]
+  },
+  {
+   "id": "D50",
+   "question": "What inheritance is annotated for Rett syndrome?",
+   "gains": [
+    1,
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "sources": [
+    "disease:ORPHA:778",
+    "disease:OMIM:312750",
+    "disease:ORPHA:3095",
+    "gene:MECP2",
+    "gene:SMC1A"
+   ]
+  },
+  {
+   "id": "D51",
+   "question": "Which report describes the F11 Asp506Gly mutation in a Korean woman?",
+   "gains": [
+    2,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "sources": [
+    "lit:tmvar:22016685",
+    "lit:tmvar:22016685",
+    "gene:F11",
+    "disease:OMIM:612416",
+    "disease:ORPHA:329"
+   ]
+  },
+  {
+   "id": "D52",
+   "question": "Is there a study of SLC6A8 deficiency in X linked mental retardation?",
+   "gains": [
+    2,
+    2,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "sources": [
+    "lit:seth:15154114",
+    "lit:seth:15154114",
+    "gene:SLC6A8",
+    "disease:OMIM:300352",
+    "disease:ORPHA:52503"
+   ]
+  },
+  {
+   "id": "D53",
+   "question": "What was found about a cryptic splice mutation in PKP2?",
+   "gains": [
+    2,
+    2,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "sources": [
+    "lit:seth:17041889",
+    "lit:seth:17041889",
+    "gene:PKP2",
+    "disease:OMIM:609040",
+    "lit:tmvar:18272172"
+   ]
+  },
+  {
+   "id": "D54",
+   "question": "Which paper reported LIPA Tyr22X in Wolman disease?",
+   "gains": [
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "sources": [
+    "lit:seth:8956047",
+    "gene:LIPA",
+    "disease:OMIM:620151",
+    "disease:ORPHA:75233",
+    "disease:ORPHA:75234"
+   ]
+  },
+  {
+   "id": "D55",
+   "question": "What did the study of CAPN3 transcripts in LGMD2A patients show?",
+   "gains": [
+    2,
+    2,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "sources": [
+    "lit:tmvar:17157502",
+    "lit:tmvar:17157502",
+    "gene:CAPN3",
+    "disease:OMIM:253600",
+    "disease:OMIM:618129"
+   ]
+  },
+  {
+   "id": "D56",
+   "question": "Which study examined manifesting carriers of DMD mutations?",
+   "gains": [
+    2,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "sources": [
+    "lit:tmvar:20630757",
+    "lit:tmvar:20630757",
+    "gene:DMD",
+    "lit:seth:15714686",
+    "disease:ORPHA:206546"
+   ]
+  },
+  {
+   "id": "D57",
+   "question": "Does a RAD51 polymorphism modify breast cancer risk in BRCA2 carriers?",
+   "gains": [
+    2,
+    2,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0
+   ],
+   "sources": [
+    "lit:osiris:15138485",
+    "lit:osiris:15138485",
+    "lit:seth:17999359",
+    "lit:seth:17999359",
+    "lit:tmvar:12673366"
+   ]
+  },
+  {
+   "id": "D58",
+   "question": "What variants of the SCN5A gene were studied in Han Chinese?",
+   "gains": [
+    2,
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "sources": [
+    "lit:osiris:15161528",
+    "lit:osiris:15161528",
+    "disease:OMIM:272120",
+    "disease:OMIM:603829",
+    "gene:SCN5A"
+   ]
+  },
+  {
+   "id": "D59",
+   "question": "Which report described a new mutation in the ARSA gene with adult onset metachromatic leukodystrophy?",
+   "gains": [
+    2,
+    2,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   "sources": [
+    "lit:tmvar:15710861",
+    "lit:tmvar:15710861",
+    "gene:ARSA",
+    "disease:ORPHA:309271",
+    "disease:OMIM:250100"
+   ]
+  },
+  {
+   "id": "D60",
+   "question": "What did the study of the WTX gene in Wilms tumours find?",
+   "gains": [
+    2,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "sources": [
+    "lit:tmvar:18391980",
+    "lit:tmvar:18391980",
+    "disease:OMIM:616806",
+    "disease:OMIM:601583",
+    "gene:WT1"
+   ]
+  }
+ ],
+ "blind": [
+  {
+   "id": "B01",
+   "question": "How should a canonical splice variant be graded if skipping the exon keeps the reading frame?",
+   "gains": [
+    2,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0
+   ],
+   "sources": [
+    "guidance:G04",
+    "guidance:G02",
+    "guidance:G63",
+    "lit:seth:17311297",
+    "lit:seth:12145749"
+   ]
+  },
+  {
+   "id": "B02",
+   "question": "What prior probability does the ClinGen calibration of in silico tools use?",
+   "gains": [
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "sources": [
+    "guidance:G17",
+    "guidance:G28",
+    "lit:seth:18449911",
+    "guidance:G38",
+    "lit:seth:18449911"
+   ]
+  },
+  {
+   "id": "B03",
+   "question": "Which criteria are deprecated by ClinGen SVI?",
+   "gains": [
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "sources": [
+    "guidance:G19",
+    "guidance:G36",
+    "guidance:G55",
+    "guidance:G26",
+    "guidance:G02"
+   ]
+  },
+  {
+   "id": "B04",
+   "question": "What is the filtering allele frequency?",
+   "gains": [
+    2,
+    2,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "sources": [
+    "guidance:G30",
+    "guidance:G21",
+    "guidance:G64",
+    "lit:seth:17279550",
+    "guidance:G52"
+   ]
+  },
+  {
+   "id": "B05",
+   "question": "How many points make a variant benign in the point system?",
+   "gains": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "sources": [
+    "guidance:G16",
+    "guidance:G75",
+    "gene:COQ2",
+    "gene:HUWE1",
+    "gene:ART4"
+   ]
+  },
+  {
+   "id": "B06",
+   "question": "When does a premature stop escape nonsense mediated decay?",
+   "gains": [
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "sources": [
+    "guidance:G03",
+    "guidance:G02",
+    "lit:seth:15024732",
+    "lit:tmvar:17641158",
+    "lit:tmvar:16181814"
+   ]
+  },
+  {
+   "id": "B07",
+   "question": "What evidence does PP4 require?",
+   "gains": [
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "sources": [
+    "guidance:G18",
+    "lit:mf:2143786",
+    "guidance:G17",
+    "lit:variome:1266026-03-Methods-p01",
+    "lit:seth:12796855"
+   ]
+  },
+  {
+   "id": "B08",
+   "question": "How do the 2015 combining rules handle conflicting pathogenic and benign evidence?",
+   "gains": [
+    2,
+    2,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "sources": [
+    "guidance:G29",
+    "guidance:G75",
+    "gene:RAG1",
+    "gene:RAG2",
+    "guidance:G27"
+   ]
+  },
+  {
+   "id": "B09",
+   "question": "Why should gene disease validity be checked before classifying a variant?",
+   "gains": [
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "sources": [
+    "guidance:G31",
+    "guidance:G76",
+    "gene:PKHD1",
+    "gene:HEXB",
+    "gene:GALC"
+   ]
+  },
+  {
+   "id": "B10",
+   "question": "What is type two circularity in predictor evaluation?",
+   "gains": [
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "sources": [
+    "guidance:G45",
+    "lit:tmvar:19444361",
+    "lit:tmvar:15198485",
+    "lit:osiris:14962090",
+    "guidance:G65"
+   ]
+  },
+  {
+   "id": "B11",
+   "question": "How does the InSiGHT group classify mismatch repair variants?",
+   "gains": [
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   "sources": [
+    "guidance:G38",
+    "gene:MSH6",
+    "gene:MLH1",
+    "gene:PMS2",
+    "gene:MSH2"
+   ]
+  },
+  {
+   "id": "B12",
+   "question": "Can the germline criteria be used for tumour only findings?",
+   "gains": [
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   "sources": [
+    "guidance:G54",
+    "lit:variome:2275286-05-Discussion-p01",
+    "lit:seth:12619118",
+    "lit:tmvar:18202102",
+    "lit:seth:11283796"
+   ]
+  },
+  {
+   "id": "B13",
+   "question": "What diseases are associated with PTEN?",
+   "gains": [
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "sources": [
+    "gene:PTEN",
+    "lit:seth:18460397",
+    "disease:OMIM:176807",
+    "lit:seth:17847000",
+    "disease:ORPHA:65285"
+   ]
+  },
+  {
+   "id": "B14",
+   "question": "Is loss of function the mechanism for MSH2?",
+   "gains": [
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "sources": [
+    "gene:MSH2",
+    "lit:tmvar:15951966",
+    "lit:tmvar:15951966",
+    "disease:OMIM:120435",
+    "disease:ORPHA:144"
+   ]
+  },
+  {
+   "id": "B15",
+   "question": "What is the pLI of the NF1 gene?",
+   "gains": [
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "sources": [
+    "gene:NF1",
+    "lit:seth:15146469",
+    "lit:seth:17160901",
+    "lit:seth:15146469",
+    "lit:seth:22331697"
+   ]
+  },
+  {
+   "id": "B16",
+   "question": "Which inheritance is recorded for GJB2?",
+   "gains": [
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "sources": [
+    "gene:GJB2",
+    "lit:tmvar:22106692",
+    "disease:OMIM:148350",
+    "disease:ORPHA:2202",
+    "lit:tmvar:22106692"
+   ]
+  },
+  {
+   "id": "B17",
+   "question": "How many benign missense variants does RYR1 have in the evidence pool?",
+   "gains": [
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "sources": [
+    "gene:RYR1",
+    "disease:ORPHA:324581",
+    "disease:OMIM:145600",
+    "disease:ORPHA:466650",
+    "lit:seth:19191333"
+   ]
+  },
+  {
+   "id": "B18",
+   "question": "What conditions are linked to COL1A1?",
+   "gains": [
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "sources": [
+    "gene:COL1A1",
+    "lit:seth:8364588",
+    "disease:OMIM:166710",
+    "disease:ORPHA:1899",
+    "disease:OMIM:114000"
+   ]
+  },
+  {
+   "id": "B19",
+   "question": "Is KRAS a gene where PVS1 applies?",
+   "gains": [
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "sources": [
+    "gene:KRAS",
+    "lit:variome:1619718-05-Discussion-p04",
+    "lit:variome:1619718-05-Discussion-p01",
+    "lit:variome:1619718-04-Results-p01",
+    "lit:variome:1619718-04-Results-p03"
+   ]
+  },
+  {
+   "id": "B20",
+   "question": "Which phenotypes describe Tay-Sachs disease?",
+   "gains": [
+    2,
+    2,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "sources": [
+    "disease:ORPHA:845",
+    "disease:OMIM:272800",
+    "gene:HEXA",
+    "lit:seth:8328462",
+    "lit:seth:8328462"
+   ]
+  },
+  {
+   "id": "B21",
+   "question": "What are the features of neurofibromatosis type 1?",
+   "gains": [
+    1,
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "sources": [
+    "disease:ORPHA:636",
+    "disease:OMIM:162200",
+    "lit:seth:9143927",
+    "lit:seth:9143927",
+    "gene:NF1"
+   ]
+  },
+  {
+   "id": "B22",
+   "question": "What inheritance is annotated for Fabry disease?",
+   "gains": [
+    2,
+    1,
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "sources": [
+    "disease:ORPHA:324",
+    "gene:GLA",
+    "disease:OMIM:301500",
+    "lit:seth:12938095",
+    "lit:seth:12938095"
+   ]
+  },
+  {
+   "id": "B23",
+   "question": "What does global developmental delay mean as a phenotype term?",
+   "gains": [
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "sources": [
+    "hpo:HP:0001263",
+    "disease:ORPHA:2169",
+    "hpo:HP:0011342",
+    "hpo:HP:0011344",
+    "hpo:HP:0011343"
+   ]
+  },
+  {
+   "id": "B24",
+   "question": "Which phenotypes are annotated for Wilson disease?",
+   "gains": [
+    2,
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "sources": [
+    "disease:ORPHA:905",
+    "disease:OMIM:277900",
+    "gene:ZEB2",
+    "gene:ATP7B",
+    "gene:LAS1L"
+   ]
+  },
+  {
+   "id": "B25",
+   "question": "What is an atrial septal defect?",
+   "gains": [
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "sources": [
+    "hpo:HP:0001631",
+    "hpo:HP:0031017",
+    "hpo:HP:0001684",
+    "hpo:HP:0011643",
+    "hpo:HP:0010445"
+   ]
+  },
+  {
+   "id": "B26",
+   "question": "Which study reported haploinsufficiency for FKBP6 in Williams-Beuren syndrome?",
+   "gains": [
+    2,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   "sources": [
+    "lit:tmvar:15770126",
+    "lit:tmvar:15770126",
+    "gene:ELN",
+    "disease:OMIM:194050",
+    "gene:MLXIPL"
+   ]
+  },
+  {
+   "id": "B27",
+   "question": "Were two novel TSH beta subunit mutations described in congenital central hypothyroidism?",
+   "gains": [
+    2,
+    2,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   "sources": [
+    "lit:tmvar:20534762",
+    "lit:tmvar:20534762",
+    "gene:TSHR",
+    "lit:seth:10090486",
+    "lit:tmvar:15609295"
+   ]
+  },
+  {
+   "id": "B28",
+   "question": "Is genetic variation near HNF4A associated with type 2 diabetes?",
+   "gains": [
+    2,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "sources": [
+    "lit:osiris:15047633",
+    "lit:osiris:15047633",
+    "gene:HNF4A",
+    "disease:OMIM:125850",
+    "disease:ORPHA:263455"
+   ]
+  },
+  {
+   "id": "B29",
+   "question": "Which study looked at APOA5 variants and coronary heart disease progression?",
+   "gains": [
+    2,
+    2,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "sources": [
+    "lit:osiris:14729863",
+    "lit:osiris:14729863",
+    "gene:APOA5",
+    "disease:OMIM:145750",
+    "disease:OMIM:144650"
+   ]
+  },
+  {
+   "id": "B30",
+   "question": "Was SQSTM1 evaluated in Belgian patients with Paget disease?",
+   "gains": [
+    2,
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "sources": [
+    "lit:osiris:15164150",
+    "lit:osiris:15164150",
+    "gene:SQSTM1",
+    "disease:ORPHA:275872",
+    "disease:OMIM:167250"
+   ]
+  }
+ ]
+}

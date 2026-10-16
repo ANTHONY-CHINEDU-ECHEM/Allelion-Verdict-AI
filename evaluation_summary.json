@@ -1,0 +1,2287 @@
+{
+ "generated_utc": "2026-10-16T18:52:16+00:00",
+ "classification_dev": {
+  "rules_points": {
+   "n": 3300,
+   "exact_5tier": 0.4664,
+   "within_one_tier": 0.9088,
+   "accuracy_3tier": 0.7285,
+   "balanced_accuracy_3tier": 0.708,
+   "macro_f1_3tier": 0.6943,
+   "severe_discordance": 12,
+   "severe_discordance_rate": 0.00364,
+   "definitive_correct_rate": 0.745,
+   "per_class_3tier": {
+    "P/LP": {
+     "precision": 0.9968,
+     "recall": 0.5133,
+     "f1": 0.6777,
+     "support": 1200
+    },
+    "VUS": {
+     "precision": 0.4177,
+     "recall": 0.6671,
+     "f1": 0.5138,
+     "support": 700
+    },
+    "B/LB": {
+     "precision": 0.8446,
+     "recall": 0.9436,
+     "f1": 0.8914,
+     "support": 1400
+    }
+   },
+   "confusion_5tier": [
+    [
+     9,
+     410,
+     275,
+     6,
+     0
+    ],
+    [
+     17,
+     180,
+     298,
+     4,
+     1
+    ],
+    [
+     0,
+     1,
+     467,
+     231,
+     1
+    ],
+    [
+     0,
+     0,
+     65,
+     350,
+     285
+    ],
+    [
+     0,
+     1,
+     13,
+     153,
+     533
+    ]
+   ],
+   "classes": [
+    "Pathogenic",
+    "Likely pathogenic",
+    "Uncertain significance",
+    "Likely benign",
+    "Benign"
+   ]
+  },
+  "rules_2015": {
+   "n": 3300,
+   "exact_5tier": 0.4139,
+   "within_one_tier": 0.7921,
+   "accuracy_3tier": 0.5582,
+   "balanced_accuracy_3tier": 0.5969,
+   "macro_f1_3tier": 0.5038,
+   "severe_discordance": 2,
+   "severe_discordance_rate": 0.00061,
+   "definitive_correct_rate": 0.4612,
+   "per_class_3tier": {
+    "P/LP": {
+     "precision": 0.9924,
+     "recall": 0.1092,
+     "f1": 0.1967,
+     "support": 1200
+    },
+    "VUS": {
+     "precision": 0.3149,
+     "recall": 0.9186,
+     "f1": 0.469,
+     "support": 700
+    },
+    "B/LB": {
+     "precision": 0.9485,
+     "recall": 0.7629,
+     "f1": 0.8456,
+     "support": 1400
+    }
+   },
+   "confusion_5tier": [
+    [
+     7,
+     62,
+     631,
+     0,
+     0
+    ],
+    [
+     17,
+     45,
+     436,
+     1,
+     1
+    ],
+    [
+     0,
+     1,
+     643,
+     55,
+     1
+    ],
+    [
+     0,
+     0,
+     280,
+     138,
+     282
+    ],
+    [
+     0,
+     0,
+     52,
+     115,
+     533
+    ]
+   ],
+   "classes": [
+    "Pathogenic",
+    "Likely pathogenic",
+    "Uncertain significance",
+    "Likely benign",
+    "Benign"
+   ]
+  },
+  "learned_meta": {
+   "n": 3300,
+   "exact_5tier": 0.6509,
+   "within_one_tier": 0.9661,
+   "accuracy_3tier": 0.9018,
+   "balanced_accuracy_3tier": 0.8808,
+   "macro_f1_3tier": 0.8825,
+   "severe_discordance": 30,
+   "severe_discordance_rate": 0.00909,
+   "definitive_correct_rate": 0.9342,
+   "per_class_3tier": {
+    "P/LP": {
+     "precision": 0.9322,
+     "recall": 0.8817,
+     "f1": 0.9062,
+     "support": 1200
+    },
+    "VUS": {
+     "precision": 0.7951,
+     "recall": 0.7814,
+     "f1": 0.7882,
+     "support": 700
+    },
+    "B/LB": {
+     "precision": 0.9282,
+     "recall": 0.9793,
+     "f1": 0.9531,
+     "support": 1400
+    }
+   },
+   "confusion_5tier": [
+    [
+     417,
+     210,
+     57,
+     10,
+     6
+    ],
+    [
+     159,
+     272,
+     58,
+     8,
+     3
+    ],
+    [
+     4,
+     70,
+     547,
+     65,
+     14
+    ],
+    [
+     1,
+     0,
+     19,
+     260,
+     420
+    ],
+    [
+     0,
+     2,
+     7,
+     39,
+     652
+    ]
+   ],
+   "classes": [
+    "Pathogenic",
+    "Likely pathogenic",
+    "Uncertain significance",
+    "Likely benign",
+    "Benign"
+   ]
+  },
+  "definitive_call_rate": 0.6612,
+  "by_consequence": {
+   "inframe": {
+    "n": 37,
+    "exact_5tier": 0.3514,
+    "accuracy_3tier": 0.3784,
+    "severe_discordance": 0
+   },
+   "intronic": {
+    "n": 397,
+    "exact_5tier": 0.6071,
+    "accuracy_3tier": 0.806,
+    "severe_discordance": 3
+   },
+   "missense": {
+    "n": 1486,
+    "exact_5tier": 0.463,
+    "accuracy_3tier": 0.5969,
+    "severe_discordance": 7
+   },
+   "other": {
+    "n": 55,
+    "exact_5tier": 0.5091,
+    "accuracy_3tier": 0.7455,
+    "severe_discordance": 0
+   },
+   "synonymous": {
+    "n": 666,
+    "exact_5tier": 0.6246,
+    "accuracy_3tier": 0.9264,
+    "severe_discordance": 1
+   },
+   "truncating": {
+    "n": 659,
+    "exact_5tier": 0.2322,
+    "accuracy_3tier": 0.7967,
+    "severe_discordance": 1
+   }
+  },
+  "posterior_reliability": [
+   {
+    "band": "0 to 0.001",
+    "n": 820,
+    "reference_pathogenic_share": 0.0012
+   },
+   {
+    "band": "0.001 to 0.1",
+    "n": 744,
+    "reference_pathogenic_share": 0.0134
+   },
+   {
+    "band": "0.1 to 0.5",
+    "n": 923,
+    "reference_pathogenic_share": 0.4225
+   },
+   {
+    "band": "0.5 to 0.9",
+    "n": 246,
+    "reference_pathogenic_share": 0.9472
+   },
+   {
+    "band": "0.9 to 0.99",
+    "n": 541,
+    "reference_pathogenic_share": 0.9982
+   },
+   {
+    "band": "0.99 to 1",
+    "n": 26,
+    "reference_pathogenic_share": 1.0
+   }
+  ],
+  "criteria_frequency_by_reference_class": {
+   "Benign": {
+    "BA1": 0.687,
+    "BP7": 0.53,
+    "BS1": 0.25,
+    "BP4": 0.174,
+    "BS2": 0.084,
+    "BP4_Moderate": 0.047,
+    "BP1": 0.031,
+    "PM2_Supporting": 0.014
+   },
+   "Likely benign": {
+    "BP7": 0.557,
+    "BS1": 0.324,
+    "BA1": 0.32,
+    "BP4": 0.133,
+    "BS2": 0.11,
+    "PM2_Supporting": 0.046,
+    "BP4_Moderate": 0.041,
+    "BP1": 0.034
+   },
+   "Likely pathogenic": {
+    "PM2_Supporting": 0.692,
+    "PVS1": 0.3,
+    "PP3_Moderate": 0.19,
+    "PP2": 0.174,
+    "PP3": 0.14,
+    "PM1": 0.14,
+    "PVS1_Strong": 0.094,
+    "PM1_Supporting": 0.062
+   },
+   "Pathogenic": {
+    "PM2_Supporting": 0.684,
+    "PVS1": 0.509,
+    "PP3_Moderate": 0.119,
+    "PP2": 0.114,
+    "PM1": 0.107,
+    "PP3": 0.086,
+    "PVS1_Strong": 0.06,
+    "PM1_Supporting": 0.049
+   },
+   "Uncertain significance": {
+    "PM2_Supporting": 0.203,
+    "BP4": 0.18,
+    "BP1": 0.143,
+    "PP3": 0.124,
+    "BP4_Moderate": 0.08,
+    "PP2": 0.069,
+    "PP3_Moderate": 0.066,
+    "BP7": 0.066
+   }
+  },
+  "severe_examples": [
+   {
+    "variation_id": "12856",
+    "gene": "SPTA1",
+    "consequence": "missense",
+    "truth": "Pathogenic",
+    "pred": "Likely benign",
+    "points": -1,
+    "met": "BP4"
+   },
+   {
+    "variation_id": "18115",
+    "gene": "SLC3A1",
+    "consequence": "missense",
+    "truth": "Pathogenic",
+    "pred": "Likely benign",
+    "points": -4,
+    "met": "BS1"
+   },
+   {
+    "variation_id": "127720",
+    "gene": "BARD1",
+    "consequence": "intron",
+    "truth": "Pathogenic",
+    "pred": "Likely benign",
+    "points": -1,
+    "met": "BP7"
+   },
+   {
+    "variation_id": "142734",
+    "gene": "BARD1",
+    "consequence": "intron",
+    "truth": "Pathogenic",
+    "pred": "Likely benign",
+    "points": -1,
+    "met": "BP7"
+   },
+   {
+    "variation_id": "13215",
+    "gene": "BCHE",
+    "consequence": "missense",
+    "truth": "Likely pathogenic",
+    "pred": "Benign",
+    "points": -8,
+    "met": "BS1, BS2"
+   },
+   {
+    "variation_id": "157515",
+    "gene": "C5orf42",
+    "consequence": "missense",
+    "truth": "Likely pathogenic",
+    "pred": "Likely benign",
+    "points": -1,
+    "met": "BP4"
+   },
+   {
+    "variation_id": "13583",
+    "gene": "PLG",
+    "consequence": "missense",
+    "truth": "Pathogenic",
+    "pred": "Likely benign",
+    "points": -4,
+    "met": "BS1"
+   },
+   {
+    "variation_id": "35866",
+    "gene": "CFTR",
+    "consequence": "missense",
+    "truth": "Likely pathogenic",
+    "pred": "Likely benign",
+    "points": -3,
+    "met": "PM5_Supporting, BS1"
+   },
+   {
+    "variation_id": "38363",
+    "gene": "PRSS1",
+    "consequence": "missense",
+    "truth": "Pathogenic",
+    "pred": "Likely benign",
+    "points": -4,
+    "met": "BS1"
+   },
+   {
+    "variation_id": "15459",
+    "gene": "HBB",
+    "consequence": "synonymous",
+    "truth": "Likely pathogenic",
+    "pred": "Likely benign",
+    "points": -1,
+    "met": "BP7"
+   },
+   {
+    "variation_id": "37565",
+    "gene": "BRCA1",
+    "consequence": "intron",
+    "truth": "Likely pathogenic",
+    "pred": "Likely benign",
+    "points": -1,
+    "met": "BP7"
+   },
+   {
+    "variation_id": "226482",
+    "gene": "CBS",
+    "consequence": "frameshift",
+    "truth": "Benign",
+    "pred": "Likely pathogenic",
+    "points": 9,
+    "met": "PVS1, PM2_Supporting"
+   }
+  ],
+  "ablations": {
+   "all criteria": {
+    "exact_5tier": 0.4664,
+    "accuracy_3tier": 0.7285,
+    "balanced_accuracy_3tier": 0.708,
+    "severe_discordance_rate": 0.00364,
+    "per_class_3tier": {
+     "P/LP": {
+      "precision": 0.9968,
+      "recall": 0.5133,
+      "f1": 0.6777,
+      "support": 1200
+     },
+     "VUS": {
+      "precision": 0.4177,
+      "recall": 0.6671,
+      "f1": 0.5138,
+      "support": 700
+     },
+     "B/LB": {
+      "precision": 0.8446,
+      "recall": 0.9436,
+      "f1": 0.8914,
+      "support": 1400
+     }
+    }
+   },
+   "without computational (PP3, BP4, BP7)": {
+    "exact_5tier": 0.4545,
+    "accuracy_3tier": 0.7006,
+    "balanced_accuracy_3tier": 0.7203,
+    "severe_discordance_rate": 0.00242,
+    "per_class_3tier": {
+     "P/LP": {
+      "precision": 0.9982,
+      "recall": 0.4608,
+      "f1": 0.6306,
+      "support": 1200
+     },
+     "VUS": {
+      "precision": 0.408,
+      "recall": 0.8871,
+      "f1": 0.559,
+      "support": 700
+     },
+     "B/LB": {
+      "precision": 0.9297,
+      "recall": 0.8129,
+      "f1": 0.8674,
+      "support": 1400
+     }
+    }
+   },
+   "without allelic (PS1, PM5)": {
+    "exact_5tier": 0.4612,
+    "accuracy_3tier": 0.707,
+    "balanced_accuracy_3tier": 0.6883,
+    "severe_discordance_rate": 0.00424,
+    "per_class_3tier": {
+     "P/LP": {
+      "precision": 0.9963,
+      "recall": 0.4542,
+      "f1": 0.6239,
+      "support": 1200
+     },
+     "VUS": {
+      "precision": 0.3934,
+      "recall": 0.6671,
+      "f1": 0.495,
+      "support": 700
+     },
+     "B/LB": {
+      "precision": 0.8436,
+      "recall": 0.9436,
+      "f1": 0.8908,
+      "support": 1400
+     }
+    }
+   },
+   "without hot spot (PM1)": {
+    "exact_5tier": 0.4567,
+    "accuracy_3tier": 0.7088,
+    "balanced_accuracy_3tier": 0.69,
+    "severe_discordance_rate": 0.00364,
+    "per_class_3tier": {
+     "P/LP": {
+      "precision": 0.9982,
+      "recall": 0.4592,
+      "f1": 0.629,
+      "support": 1200
+     },
+     "VUS": {
+      "precision": 0.3948,
+      "recall": 0.6671,
+      "f1": 0.496,
+      "support": 700
+     },
+     "B/LB": {
+      "precision": 0.8441,
+      "recall": 0.9436,
+      "f1": 0.8911,
+      "support": 1400
+     }
+    }
+   },
+   "without gene level (PP2, BP1)": {
+    "exact_5tier": 0.4742,
+    "accuracy_3tier": 0.7315,
+    "balanced_accuracy_3tier": 0.7191,
+    "severe_discordance_rate": 0.00364,
+    "per_class_3tier": {
+     "P/LP": {
+      "precision": 0.9983,
+      "recall": 0.4867,
+      "f1": 0.6543,
+      "support": 1200
+     },
+     "VUS": {
+      "precision": 0.427,
+      "recall": 0.7271,
+      "f1": 0.5381,
+      "support": 700
+     },
+     "B/LB": {
+      "precision": 0.8674,
+      "recall": 0.9436,
+      "f1": 0.9039,
+      "support": 1400
+     }
+    }
+   },
+   "without PVS1": {
+    "exact_5tier": 0.423,
+    "accuracy_3tier": 0.5727,
+    "balanced_accuracy_3tier": 0.5652,
+    "severe_discordance_rate": 0.00364,
+    "per_class_3tier": {
+     "P/LP": {
+      "precision": 0.9903,
+      "recall": 0.085,
+      "f1": 0.1566,
+      "support": 1200
+     },
+     "VUS": {
+      "precision": 0.2862,
+      "recall": 0.6671,
+      "f1": 0.4005,
+      "support": 700
+     },
+     "B/LB": {
+      "precision": 0.8441,
+      "recall": 0.9436,
+      "f1": 0.8911,
+      "support": 1400
+     }
+    }
+   },
+   "population criteria only": {
+    "exact_5tier": 0.4279,
+    "accuracy_3tier": 0.5527,
+    "balanced_accuracy_3tier": 0.5988,
+    "severe_discordance_rate": 0.00212,
+    "per_class_3tier": {
+     "P/LP": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 1200
+     },
+     "VUS": {
+      "precision": 0.3212,
+      "recall": 0.9871,
+      "f1": 0.4847,
+      "support": 700
+     },
+     "B/LB": {
+      "precision": 0.9861,
+      "recall": 0.8093,
+      "f1": 0.889,
+      "support": 1400
+     }
+    }
+   }
+  },
+  "missense_model": {
+   "n": 885,
+   "n_pathogenic": 477,
+   "auroc": 0.9089,
+   "average_precision": 0.9179,
+   "strength_share_pathogenic": {
+    "indeterminate": 0.358,
+    "pathogenic_Moderate": 0.356,
+    "pathogenic_Supporting": 0.268,
+    "benign_Supporting": 0.017
+   },
+   "strength_share_benign": {
+    "indeterminate": 0.471,
+    "benign_Supporting": 0.316,
+    "benign_Moderate": 0.154,
+    "pathogenic_Supporting": 0.042,
+    "pathogenic_Moderate": 0.017
+   }
+  }
+ },
+ "classification_blind": {
+  "rules_points": {
+   "n": 8733,
+   "exact_5tier": 0.1766,
+   "within_one_tier": 0.7085,
+   "accuracy_3tier": 0.6123,
+   "balanced_accuracy_3tier": 0.6361,
+   "macro_f1_3tier": 0.5473,
+   "severe_discordance": 68,
+   "severe_discordance_rate": 0.00779,
+   "definitive_correct_rate": 0.5937,
+   "per_class_3tier": {
+    "P/LP": {
+     "precision": 0.9983,
+     "recall": 0.7027,
+     "f1": 0.8248,
+     "support": 5075
+    },
+    "VUS": {
+     "precision": 0.1642,
+     "recall": 0.8036,
+     "f1": 0.2727,
+     "support": 774
+    },
+    "B/LB": {
+     "precision": 0.8441,
+     "recall": 0.4019,
+     "f1": 0.5445,
+     "support": 2884
+    }
+   },
+   "confusion_5tier": [
+    [
+     28,
+     3443,
+     1333,
+     64,
+     0
+    ],
+    [
+     19,
+     76,
+     109,
+     3,
+     0
+    ],
+    [
+     1,
+     4,
+     622,
+     145,
+     2
+    ],
+    [
+     0,
+     0,
+     582,
+     723,
+     2
+    ],
+    [
+     0,
+     1,
+     1142,
+     341,
+     93
+    ]
+   ],
+   "classes": [
+    "Pathogenic",
+    "Likely pathogenic",
+    "Uncertain significance",
+    "Likely benign",
+    "Benign"
+   ]
+  },
+  "rules_2015": {
+   "n": 8733,
+   "exact_5tier": 0.1004,
+   "within_one_tier": 0.2975,
+   "accuracy_3tier": 0.1253,
+   "balanced_accuracy_3tier": 0.3507,
+   "macro_f1_3tier": 0.1217,
+   "severe_discordance": 1,
+   "severe_discordance_rate": 0.00011,
+   "definitive_correct_rate": 0.046,
+   "per_class_3tier": {
+    "P/LP": {
+     "precision": 0.9623,
+     "recall": 0.0201,
+     "f1": 0.0394,
+     "support": 5075
+    },
+    "VUS": {
+     "precision": 0.0875,
+     "recall": 0.9406,
+     "f1": 0.1601,
+     "support": 774
+    },
+    "B/LB": {
+     "precision": 0.8599,
+     "recall": 0.0915,
+     "f1": 0.1655,
+     "support": 2884
+    }
+   },
+   "confusion_5tier": [
+    [
+     24,
+     47,
+     4797,
+     0,
+     0
+    ],
+    [
+     19,
+     12,
+     176,
+     0,
+     0
+    ],
+    [
+     1,
+     2,
+     728,
+     41,
+     2
+    ],
+    [
+     0,
+     0,
+     1285,
+     21,
+     1
+    ],
+    [
+     0,
+     1,
+     1334,
+     150,
+     92
+    ]
+   ],
+   "classes": [
+    "Pathogenic",
+    "Likely pathogenic",
+    "Uncertain significance",
+    "Likely benign",
+    "Benign"
+   ]
+  },
+  "learned_meta": {
+   "n": 8733,
+   "exact_5tier": 0.6922,
+   "within_one_tier": 0.8838,
+   "accuracy_3tier": 0.8309,
+   "balanced_accuracy_3tier": 0.7496,
+   "macro_f1_3tier": 0.7354,
+   "severe_discordance": 573,
+   "severe_discordance_rate": 0.06561,
+   "definitive_correct_rate": 0.8516,
+   "per_class_3tier": {
+    "P/LP": {
+     "precision": 0.8765,
+     "recall": 0.9464,
+     "f1": 0.9101,
+     "support": 5075
+    },
+    "VUS": {
+     "precision": 0.4401,
+     "recall": 0.6176,
+     "f1": 0.514,
+     "support": 774
+    },
+    "B/LB": {
+     "precision": 0.9114,
+     "recall": 0.6848,
+     "f1": 0.782,
+     "support": 2884
+    }
+   },
+   "confusion_5tier": [
+    [
+     4291,
+     351,
+     212,
+     12,
+     2
+    ],
+    [
+     89,
+     72,
+     38,
+     8,
+     0
+    ],
+    [
+     26,
+     100,
+     478,
+     158,
+     12
+    ],
+    [
+     107,
+     2,
+     166,
+     1014,
+     18
+    ],
+    [
+     438,
+     4,
+     192,
+     753,
+     190
+    ]
+   ],
+   "classes": [
+    "Pathogenic",
+    "Likely pathogenic",
+    "Uncertain significance",
+    "Likely benign",
+    "Benign"
+   ]
+  },
+  "definitive_call_rate": 0.5662,
+  "by_consequence": {
+   "inframe": {
+    "n": 56,
+    "exact_5tier": 0.5893,
+    "accuracy_3tier": 0.5893,
+    "severe_discordance": 1
+   },
+   "intronic": {
+    "n": 2525,
+    "exact_5tier": 0.1057,
+    "accuracy_3tier": 0.1414,
+    "severe_discordance": 60
+   },
+   "missense": {
+    "n": 1063,
+    "exact_5tier": 0.4356,
+    "accuracy_3tier": 0.5701,
+    "severe_discordance": 7
+   },
+   "other": {
+    "n": 120,
+    "exact_5tier": 0.2083,
+    "accuracy_3tier": 0.2667,
+    "severe_discordance": 0
+   },
+   "synonymous": {
+    "n": 1250,
+    "exact_5tier": 0.512,
+    "accuracy_3tier": 0.6232,
+    "severe_discordance": 0
+   },
+   "truncating": {
+    "n": 3719,
+    "exact_5tier": 0.0307,
+    "accuracy_3tier": 0.9519,
+    "severe_discordance": 0
+   }
+  },
+  "posterior_reliability": [
+   {
+    "band": "0 to 0.001",
+    "n": 97,
+    "reference_pathogenic_share": 0.0
+   },
+   {
+    "band": "0.001 to 0.1",
+    "n": 1276,
+    "reference_pathogenic_share": 0.0525
+   },
+   {
+    "band": "0.1 to 0.5",
+    "n": 3520,
+    "reference_pathogenic_share": 0.3452
+   },
+   {
+    "band": "0.5 to 0.9",
+    "n": 299,
+    "reference_pathogenic_share": 0.8562
+   },
+   {
+    "band": "0.9 to 0.99",
+    "n": 3493,
+    "reference_pathogenic_share": 0.9991
+   },
+   {
+    "band": "0.99 to 1",
+    "n": 48,
+    "reference_pathogenic_share": 0.9792
+   }
+  ],
+  "criteria_frequency_by_reference_class": {
+   "Benign": {
+    "BP7": 0.788,
+    "PM2_Supporting": 0.67,
+    "BS1": 0.104,
+    "BP1": 0.061,
+    "BA1": 0.058,
+    "BP4": 0.036,
+    "PP3": 0.017,
+    "PP3_Moderate": 0.015
+   },
+   "Likely benign": {
+    "BP7": 0.938,
+    "PM2_Supporting": 0.413,
+    "BS1": 0.015,
+    "BP1": 0.013,
+    "BP4": 0.011,
+    "PP3": 0.008,
+    "PP2": 0.005,
+    "PM1_Supporting": 0.002
+   },
+   "Likely pathogenic": {
+    "PM2_Supporting": 0.923,
+    "PVS1": 0.401,
+    "PP3_Moderate": 0.203,
+    "PS1_Moderate": 0.116,
+    "PP2": 0.116,
+    "PP3": 0.101,
+    "PVS1_Moderate": 0.087,
+    "PM1": 0.077
+   },
+   "Pathogenic": {
+    "PM2_Supporting": 0.899,
+    "PVS1": 0.704,
+    "BP7": 0.206,
+    "PVS1_Strong": 0.026,
+    "PP3_Moderate": 0.025,
+    "PM1": 0.013,
+    "PP2": 0.012,
+    "PP3": 0.011
+   },
+   "Uncertain significance": {
+    "PM2_Supporting": 0.61,
+    "BP1": 0.199,
+    "PP3_Moderate": 0.169,
+    "BP7": 0.154,
+    "PP3": 0.151,
+    "BP4": 0.066,
+    "PM4": 0.043,
+    "PP2": 0.022
+   }
+  },
+  "severe_examples": [
+   {
+    "variation_id": "36580",
+    "gene": "MSH2",
+    "consequence": "intron",
+    "truth": "Pathogenic",
+    "pred": "Likely benign",
+    "points": -2,
+    "met": "PP3_Moderate, BS1"
+   },
+   {
+    "variation_id": "126891",
+    "gene": "MSH6",
+    "consequence": "missense",
+    "truth": "Likely pathogenic",
+    "pred": "Likely benign",
+    "points": -1,
+    "met": "BP1"
+   },
+   {
+    "variation_id": "91377",
+    "gene": "PMS2",
+    "consequence": "missense",
+    "truth": "Likely pathogenic",
+    "pred": "Likely benign",
+    "points": -1,
+    "met": "BP1"
+   },
+   {
+    "variation_id": "9245",
+    "gene": "PMS2",
+    "consequence": "missense",
+    "truth": "Likely pathogenic",
+    "pred": "Likely benign",
+    "points": -1,
+    "met": "BP1"
+   },
+   {
+    "variation_id": "7105",
+    "gene": "CFTR",
+    "consequence": "inframe_indel",
+    "truth": "Pathogenic",
+    "pred": "Likely benign",
+    "points": -2,
+    "met": "PM4, BS1"
+   },
+   {
+    "variation_id": "6821",
+    "gene": "SHOC2",
+    "consequence": "missense",
+    "truth": "Pathogenic",
+    "pred": "Likely benign",
+    "points": -1,
+    "met": "BP4"
+   },
+   {
+    "variation_id": "40441",
+    "gene": "HRAS",
+    "consequence": "missense",
+    "truth": "Benign",
+    "pred": "Likely pathogenic",
+    "points": 6,
+    "met": "PM5_Strong, PP2, PP3"
+   },
+   {
+    "variation_id": "52535",
+    "gene": "BRCA2",
+    "consequence": "missense",
+    "truth": "Pathogenic",
+    "pred": "Likely benign",
+    "points": -1,
+    "met": "BP1"
+   },
+   {
+    "variation_id": "52763",
+    "gene": "BRCA2",
+    "consequence": "missense",
+    "truth": "Pathogenic",
+    "pred": "Likely benign",
+    "points": -1,
+    "met": "BP1"
+   },
+   {
+    "variation_id": "17674",
+    "gene": "BRCA1",
+    "consequence": "intron",
+    "truth": "Pathogenic",
+    "pred": "Likely benign",
+    "points": -1,
+    "met": "BP7"
+   },
+   {
+    "variation_id": "37560",
+    "gene": "BRCA1",
+    "consequence": "intron",
+    "truth": "Pathogenic",
+    "pred": "Likely benign",
+    "points": -1,
+    "met": "BP7"
+   },
+   {
+    "variation_id": "37559",
+    "gene": "BRCA1",
+    "consequence": "intron",
+    "truth": "Pathogenic",
+    "pred": "Likely benign",
+    "points": -1,
+    "met": "BP7"
+   },
+   {
+    "variation_id": "254448",
+    "gene": "BRCA1",
+    "consequence": "intron",
+    "truth": "Pathogenic",
+    "pred": "Likely benign",
+    "points": -1,
+    "met": "BP7"
+   },
+   {
+    "variation_id": "37553",
+    "gene": "BRCA1",
+    "consequence": "intron",
+    "truth": "Pathogenic",
+    "pred": "Likely benign",
+    "points": -1,
+    "met": "BP7"
+   },
+   {
+    "variation_id": "37546",
+    "gene": "BRCA1",
+    "consequence": "intron",
+    "truth": "Pathogenic",
+    "pred": "Likely benign",
+    "points": -1,
+    "met": "BP7"
+   },
+   {
+    "variation_id": "17673",
+    "gene": "BRCA1",
+    "consequence": "intron",
+    "truth": "Pathogenic",
+    "pred": "Likely benign",
+    "points": -1,
+    "met": "BP7"
+   },
+   {
+    "variation_id": "17672",
+    "gene": "BRCA1",
+    "consequence": "intron",
+    "truth": "Pathogenic",
+    "pred": "Likely benign",
+    "points": -1,
+    "met": "BP7"
+   },
+   {
+    "variation_id": "254441",
+    "gene": "BRCA1",
+    "consequence": "intron",
+    "truth": "Pathogenic",
+    "pred": "Likely benign",
+    "points": -1,
+    "met": "BP7"
+   },
+   {
+    "variation_id": "54957",
+    "gene": "BRCA1",
+    "consequence": "intron",
+    "truth": "Pathogenic",
+    "pred": "Likely benign",
+    "points": -1,
+    "met": "BP7"
+   },
+   {
+    "variation_id": "37535",
+    "gene": "BRCA1",
+    "consequence": "intron",
+    "truth": "Pathogenic",
+    "pred": "Likely benign",
+    "points": -1,
+    "met": "BP7"
+   },
+   {
+    "variation_id": "54943",
+    "gene": "BRCA1",
+    "consequence": "intron",
+    "truth": "Pathogenic",
+    "pred": "Likely benign",
+    "points": -1,
+    "met": "BP7"
+   },
+   {
+    "variation_id": "17671",
+    "gene": "BRCA1",
+    "consequence": "intron",
+    "truth": "Pathogenic",
+    "pred": "Likely benign",
+    "points": -1,
+    "met": "BP7"
+   },
+   {
+    "variation_id": "54929",
+    "gene": "BRCA1",
+    "consequence": "intron",
+    "truth": "Pathogenic",
+    "pred": "Likely benign",
+    "points": -1,
+    "met": "BP7"
+   },
+   {
+    "variation_id": "254431",
+    "gene": "BRCA1",
+    "consequence": "intron",
+    "truth": "Pathogenic",
+    "pred": "Likely benign",
+    "points": -1,
+    "met": "BP7"
+   },
+   {
+    "variation_id": "54906",
+    "gene": "BRCA1",
+    "consequence": "intron",
+    "truth": "Pathogenic",
+    "pred": "Likely benign",
+    "points": -1,
+    "met": "BP7"
+   }
+  ],
+  "ablations": {
+   "all criteria": {
+    "exact_5tier": 0.1766,
+    "accuracy_3tier": 0.6123,
+    "balanced_accuracy_3tier": 0.6361,
+    "severe_discordance_rate": 0.00779,
+    "per_class_3tier": {
+     "P/LP": {
+      "precision": 0.9983,
+      "recall": 0.7027,
+      "f1": 0.8248,
+      "support": 5075
+     },
+     "VUS": {
+      "precision": 0.1642,
+      "recall": 0.8036,
+      "f1": 0.2727,
+      "support": 774
+     },
+     "B/LB": {
+      "precision": 0.8441,
+      "recall": 0.4019,
+      "f1": 0.5445,
+      "support": 2884
+     }
+    }
+   },
+   "without computational (PP3, BP4, BP7)": {
+    "exact_5tier": 0.1026,
+    "accuracy_3tier": 0.5219,
+    "balanced_accuracy_3tier": 0.5658,
+    "severe_discordance_rate": 0.00092,
+    "per_class_3tier": {
+     "P/LP": {
+      "precision": 0.9989,
+      "recall": 0.696,
+      "f1": 0.8203,
+      "support": 5075
+     },
+     "VUS": {
+      "precision": 0.1435,
+      "recall": 0.8824,
+      "f1": 0.2469,
+      "support": 774
+     },
+     "B/LB": {
+      "precision": 0.7831,
+      "recall": 0.1189,
+      "f1": 0.2065,
+      "support": 2884
+     }
+    }
+   },
+   "without allelic (PS1, PM5)": {
+    "exact_5tier": 0.1754,
+    "accuracy_3tier": 0.6098,
+    "balanced_accuracy_3tier": 0.6353,
+    "severe_discordance_rate": 0.00813,
+    "per_class_3tier": {
+     "P/LP": {
+      "precision": 0.9992,
+      "recall": 0.6969,
+      "f1": 0.8211,
+      "support": 5075
+     },
+     "VUS": {
+      "precision": 0.1636,
+      "recall": 0.8049,
+      "f1": 0.2719,
+      "support": 774
+     },
+     "B/LB": {
+      "precision": 0.8418,
+      "recall": 0.404,
+      "f1": 0.5459,
+      "support": 2884
+     }
+    }
+   },
+   "without hot spot (PM1)": {
+    "exact_5tier": 0.1752,
+    "accuracy_3tier": 0.6086,
+    "balanced_accuracy_3tier": 0.6341,
+    "severe_discordance_rate": 0.00779,
+    "per_class_3tier": {
+     "P/LP": {
+      "precision": 0.9983,
+      "recall": 0.696,
+      "f1": 0.8202,
+      "support": 5075
+     },
+     "VUS": {
+      "precision": 0.1628,
+      "recall": 0.8036,
+      "f1": 0.2708,
+      "support": 774
+     },
+     "B/LB": {
+      "precision": 0.8444,
+      "recall": 0.4026,
+      "f1": 0.5452,
+      "support": 2884
+     }
+    }
+   },
+   "without gene level (PP2, BP1)": {
+    "exact_5tier": 0.1809,
+    "accuracy_3tier": 0.612,
+    "balanced_accuracy_3tier": 0.6552,
+    "severe_discordance_rate": 0.0071,
+    "per_class_3tier": {
+     "P/LP": {
+      "precision": 0.9986,
+      "recall": 0.6983,
+      "f1": 0.8219,
+      "support": 5075
+     },
+     "VUS": {
+      "precision": 0.1738,
+      "recall": 0.8786,
+      "f1": 0.2902,
+      "support": 774
+     },
+     "B/LB": {
+      "precision": 0.8813,
+      "recall": 0.3887,
+      "f1": 0.5395,
+      "support": 2884
+     }
+    }
+   },
+   "without PVS1": {
+    "exact_5tier": 0.1666,
+    "accuracy_3tier": 0.2101,
+    "balanced_accuracy_3tier": 0.4061,
+    "severe_discordance_rate": 0.00779,
+    "per_class_3tier": {
+     "P/LP": {
+      "precision": 0.9455,
+      "recall": 0.0102,
+      "f1": 0.0203,
+      "support": 5075
+     },
+     "VUS": {
+      "precision": 0.0854,
+      "recall": 0.8062,
+      "f1": 0.1545,
+      "support": 774
+     },
+     "B/LB": {
+      "precision": 0.8435,
+      "recall": 0.4019,
+      "f1": 0.5444,
+      "support": 2884
+     }
+    }
+   },
+   "population criteria only": {
+    "exact_5tier": 0.1001,
+    "accuracy_3tier": 0.119,
+    "balanced_accuracy_3tier": 0.3602,
+    "severe_discordance_rate": 0.00023,
+    "per_class_3tier": {
+     "P/LP": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 5075
+     },
+     "VUS": {
+      "precision": 0.0903,
+      "recall": 0.9845,
+      "f1": 0.1654,
+      "support": 774
+     },
+     "B/LB": {
+      "precision": 0.9519,
+      "recall": 0.096,
+      "f1": 0.1745,
+      "support": 2884
+     }
+    }
+   }
+  },
+  "missense_model": {
+   "n": 558,
+   "n_pathogenic": 306,
+   "auroc": 0.8296,
+   "average_precision": 0.8234,
+   "strength_share_pathogenic": {
+    "pathogenic_Moderate": 0.51,
+    "indeterminate": 0.258,
+    "pathogenic_Supporting": 0.229,
+    "benign_Supporting": 0.003
+   },
+   "strength_share_benign": {
+    "indeterminate": 0.56,
+    "benign_Supporting": 0.187,
+    "pathogenic_Supporting": 0.135,
+    "pathogenic_Moderate": 0.099,
+    "benign_Moderate": 0.02
+   }
+  },
+  "by_panel": {
+   "CFTR2": {
+    "n": 254,
+    "genes": [
+     "CFTR"
+    ],
+    "exact_5tier": 0.0039,
+    "accuracy_3tier": 0.6772,
+    "balanced_accuracy_3tier": 0.6772,
+    "severe_discordance": 1,
+    "meta_accuracy_3tier": 0.9252
+   },
+   "ClinGen RASopathy expert panel": {
+    "n": 232,
+    "genes": [
+     "BRAF",
+     "HRAS",
+     "KRAS",
+     "MAP2K1",
+     "MAP2K2",
+     "PTPN11",
+     "RAF1",
+     "SHOC2",
+     "SOS1"
+    ],
+    "exact_5tier": 0.2198,
+    "accuracy_3tier": 0.6638,
+    "balanced_accuracy_3tier": 0.7461,
+    "severe_discordance": 2,
+    "meta_accuracy_3tier": 0.8405
+   },
+   "ClinGen inherited cardiomyopathy expert panel": {
+    "n": 102,
+    "genes": [
+     "MYH7"
+    ],
+    "exact_5tier": 0.2647,
+    "accuracy_3tier": 0.7059,
+    "balanced_accuracy_3tier": 0.7357,
+    "severe_discordance": 0,
+    "meta_accuracy_3tier": 0.8137
+   },
+   "ENIGMA (BRCA1, BRCA2)": {
+    "n": 6031,
+    "genes": [
+     "BRCA1",
+     "BRCA2"
+    ],
+    "exact_5tier": 0.1154,
+    "accuracy_3tier": 0.5609,
+    "balanced_accuracy_3tier": 0.352,
+    "severe_discordance": 61,
+    "meta_accuracy_3tier": 0.8438
+   },
+   "InSiGHT (mismatch repair)": {
+    "n": 2113,
+    "genes": [
+     "MLH1",
+     "MSH2",
+     "MSH6",
+     "PMS2"
+    ],
+    "exact_5tier": 0.363,
+    "accuracy_3tier": 0.7411,
+    "balanced_accuracy_3tier": 0.6869,
+    "severe_discordance": 4,
+    "meta_accuracy_3tier": 0.7828
+   }
+  }
+ },
+ "blind_hash_verified": true,
+ "blind_runs": 1,
+ "retrieval": {
+  "dev": {
+   "bm25": {
+    "label": "BM25",
+    "recall@5": 0.983,
+    "strict_recall@5": 0.95,
+    "mrr@10": 0.985,
+    "ndcg@10": 0.685,
+    "ms_per_query": 106.0
+   },
+   "sif": {
+    "label": "SIF vectors",
+    "recall@5": 0.55,
+    "strict_recall@5": 0.467,
+    "mrr@10": 0.475,
+    "ndcg@10": 0.285,
+    "ms_per_query": 102.4
+   },
+   "dual": {
+    "label": "Dual encoder",
+    "recall@5": 0.617,
+    "strict_recall@5": 0.5,
+    "mrr@10": 0.512,
+    "ndcg@10": 0.3,
+    "ms_per_query": 104.7
+   },
+   "bm25_dual": {
+    "label": "BM25 and dual encoder fused",
+    "recall@5": 0.817,
+    "strict_recall@5": 0.683,
+    "mrr@10": 0.739,
+    "ndcg@10": 0.459,
+    "ms_per_query": 109.1
+   },
+   "entity": {
+    "label": "Entity routed BM25",
+    "recall@5": 0.967,
+    "strict_recall@5": 0.95,
+    "mrr@10": 0.958,
+    "ndcg@10": 0.636,
+    "ms_per_query": 113.7
+   },
+   "fused": {
+    "label": "All generators fused (no reranker)",
+    "recall@5": 0.983,
+    "strict_recall@5": 0.883,
+    "mrr@10": 0.932,
+    "ndcg@10": 0.588,
+    "ms_per_query": 105.2
+   },
+   "full": {
+    "label": "Full pipeline with reranker",
+    "recall@5": 1.0,
+    "strict_recall@5": 1.0,
+    "mrr@10": 0.992,
+    "ndcg@10": 0.725,
+    "ms_per_query": 152.6
+   }
+  },
+  "blind": {
+   "bm25": {
+    "label": "BM25",
+    "recall@5": 1.0,
+    "strict_recall@5": 0.933,
+    "mrr@10": 0.975,
+    "ndcg@10": 0.717,
+    "ms_per_query": 123.5
+   },
+   "sif": {
+    "label": "SIF vectors",
+    "recall@5": 0.567,
+    "strict_recall@5": 0.4,
+    "mrr@10": 0.442,
+    "ndcg@10": 0.287,
+    "ms_per_query": 95.2
+   },
+   "dual": {
+    "label": "Dual encoder",
+    "recall@5": 0.6,
+    "strict_recall@5": 0.433,
+    "mrr@10": 0.495,
+    "ndcg@10": 0.313,
+    "ms_per_query": 106.3
+   },
+   "bm25_dual": {
+    "label": "BM25 and dual encoder fused",
+    "recall@5": 0.8,
+    "strict_recall@5": 0.667,
+    "mrr@10": 0.686,
+    "ndcg@10": 0.487,
+    "ms_per_query": 95.3
+   },
+   "entity": {
+    "label": "Entity routed BM25",
+    "recall@5": 0.867,
+    "strict_recall@5": 0.867,
+    "mrr@10": 0.842,
+    "ndcg@10": 0.608,
+    "ms_per_query": 105.5
+   },
+   "fused": {
+    "label": "All generators fused (no reranker)",
+    "recall@5": 0.9,
+    "strict_recall@5": 0.867,
+    "mrr@10": 0.783,
+    "ndcg@10": 0.577,
+    "ms_per_query": 121.2
+   },
+   "full": {
+    "label": "Full pipeline with reranker",
+    "recall@5": 0.967,
+    "strict_recall@5": 0.967,
+    "mrr@10": 0.967,
+    "ndcg@10": 0.766,
+    "ms_per_query": 160.1
+   }
+  },
+  "blind_hash_verified": true,
+  "answers": {
+   "questions": 90,
+   "sentences": 315,
+   "verified_share": 1.0,
+   "unsupported_share": 0.0,
+   "answers_with_unverifiable_number": 0,
+   "answers_fully_cited": 0.9889,
+   "answers_citing_relevant_evidence": 0.9778,
+   "answers_citing_curated_or_guideline": 0.9,
+   "confidence": {
+    "high": 82,
+    "moderate": 7,
+    "low": 0,
+    "none": 1
+   },
+   "median_ms": 292.4,
+   "safety_probes": [
+    {
+     "probe": "crisis",
+     "passed": true
+    },
+    {
+     "probe": "identifiers",
+     "passed": true
+    },
+    {
+     "probe": "off_topic",
+     "passed": true
+    },
+    {
+     "probe": "personal_decision",
+     "passed": true
+    },
+    {
+     "probe": "injection",
+     "passed": true
+    }
+   ],
+   "safety_passed": 5
+  }
+ },
+ "insilico_report": {
+  "missense": {
+   "n_train": 27681,
+   "n_pathogenic": 12484,
+   "n_genes": 3011,
+   "grouped_cv": {
+    "auroc": 0.8331,
+    "average_precision": 0.8052,
+    "n": 27681
+   },
+   "baselines": {
+    "BLOSUM62 (negated)": {
+     "auroc": 0.6554,
+     "average_precision": 0.5706,
+     "n": 27681
+    },
+    "Grantham distance": {
+     "auroc": 0.6467,
+     "average_precision": 0.6074,
+     "n": 27681
+    },
+    "gene pLI": {
+     "auroc": 0.6054,
+     "average_precision": 0.5514,
+     "n": 26567
+    },
+    "LoFtool (negated)": {
+     "auroc": 0.7296,
+     "average_precision": 0.6585,
+     "n": 24288
+    }
+   },
+   "best_iterations": [
+    113,
+    79,
+    164,
+    115,
+    96
+   ],
+   "importance_gain_top": {
+    "loftool": 40179.6,
+    "log_protein_len": 22668.8,
+    "pLI": 15150.6,
+    "grantham": 11345.4,
+    "n_diseases": 10406.0,
+    "blosum62": 4785.5,
+    "rel_pos": 4597.5,
+    "log_dist_c": 4552.0,
+    "log_pos": 4232.3,
+    "haploinsufficient": 2807.6,
+    "d_hydro": 2579.6,
+    "charge_change": 2042.2,
+    "recessive": 1726.4,
+    "aromatic_change": 1658.8,
+    "x_linked": 1261.7
+   },
+   "thresholds": {
+    "pathogenic": {
+     "Supporting": 0.6712185701330318,
+     "Moderate": 0.8032583392321506,
+     "Strong": null,
+     "VeryStrong": null
+    },
+    "benign": {
+     "Supporting": 0.18445867897977958,
+     "Moderate": 0.07300668734902618,
+     "Strong": null,
+     "VeryStrong": null
+    }
+   },
+   "oof_strength_share": {
+    "pathogenic": {
+     "none": 0.4335,
+     "pathogenic_Moderate": 0.2601,
+     "pathogenic_Supporting": 0.2257,
+     "benign_Supporting": 0.0688,
+     "benign_Moderate": 0.0119
+    },
+    "benign": {
+     "none": 0.4593,
+     "benign_Supporting": 0.324,
+     "benign_Moderate": 0.1444,
+     "pathogenic_Supporting": 0.0502,
+     "pathogenic_Moderate": 0.022
+    }
+   }
+  },
+  "splice": {
+   "n_train": 19192,
+   "n_pathogenic": 741,
+   "n_genes": 2192,
+   "grouped_cv": {
+    "auroc": 0.9513,
+    "average_precision": 0.668,
+    "n": 19192
+   },
+   "baselines": {
+    "closeness to exon (negated offset)": {
+     "auroc": 0.8445,
+     "average_precision": 0.1996,
+     "n": 19192
+    }
+   },
+   "best_iterations": [
+    160,
+    132,
+    103,
+    110,
+    86
+   ],
+   "thresholds": {
+    "pathogenic": {
+     "Supporting": 0.0944911410339258,
+     "Moderate": 0.21685387082129987,
+     "Strong": 0.6438085428603245,
+     "VeryStrong": null
+    },
+    "benign": {
+     "Supporting": 0.008597594376846868,
+     "Moderate": 0.0009431700578890602,
+     "Strong": null,
+     "VeryStrong": null
+    }
+   },
+   "oof_strength_share": {
+    "pathogenic": {
+     "pathogenic_Strong": 0.4143,
+     "pathogenic_Moderate": 0.2834,
+     "none": 0.1687,
+     "pathogenic_Supporting": 0.0864,
+     "benign_Supporting": 0.0445,
+     "benign_Moderate": 0.0027
+    },
+    "benign": {
+     "benign_Supporting": 0.6606,
+     "none": 0.2054,
+     "benign_Moderate": 0.0931,
+     "pathogenic_Supporting": 0.0224,
+     "pathogenic_Moderate": 0.0145,
+     "pathogenic_Strong": 0.0041
+    }
+   }
+  }
+ },
+ "meta_report": {
+  "n_train": 60000,
+  "per_class": 12000,
+  "best_iterations": [
+   88,
+   118,
+   100,
+   111,
+   144
+  ],
+  "grouped_cv_pool": {
+   "n": 60000,
+   "exact_5tier": 0.626,
+   "within_one_tier": 0.9403,
+   "accuracy_3tier": 0.8283,
+   "balanced_accuracy_3tier": 0.7898,
+   "macro_f1_3tier": 0.7895,
+   "severe_discordance": 532,
+   "severe_discordance_rate": 0.00887,
+   "definitive_correct_rate": 0.886,
+   "per_class_3tier": {
+    "P/LP": {
+     "precision": 0.9103,
+     "recall": 0.9123,
+     "f1": 0.9113,
+     "support": 24000
+    },
+    "VUS": {
+     "precision": 0.5921,
+     "recall": 0.5973,
+     "f1": 0.5947,
+     "support": 12000
+    },
+    "B/LB": {
+     "precision": 0.8655,
+     "recall": 0.8598,
+     "f1": 0.8626,
+     "support": 24000
+    }
+   },
+   "classes": [
+    "Pathogenic",
+    "Likely pathogenic",
+    "Uncertain significance",
+    "Likely benign",
+    "Benign"
+   ]
+  },
+  "dev": {
+   "n": 3300,
+   "exact_5tier": 0.6509,
+   "within_one_tier": 0.9661,
+   "accuracy_3tier": 0.9018,
+   "balanced_accuracy_3tier": 0.8808,
+   "macro_f1_3tier": 0.8825,
+   "severe_discordance": 30,
+   "severe_discordance_rate": 0.00909,
+   "definitive_correct_rate": 0.9342,
+   "per_class_3tier": {
+    "P/LP": {
+     "precision": 0.9322,
+     "recall": 0.8817,
+     "f1": 0.9062,
+     "support": 1200
+    },
+    "VUS": {
+     "precision": 0.7951,
+     "recall": 0.7814,
+     "f1": 0.7882,
+     "support": 700
+    },
+    "B/LB": {
+     "precision": 0.9282,
+     "recall": 0.9793,
+     "f1": 0.9531,
+     "support": 1400
+    }
+   },
+   "confusion_5tier": [
+    [
+     417,
+     210,
+     57,
+     10,
+     6
+    ],
+    [
+     159,
+     272,
+     58,
+     8,
+     3
+    ],
+    [
+     4,
+     70,
+     547,
+     65,
+     14
+    ],
+    [
+     1,
+     0,
+     19,
+     260,
+     420
+    ],
+    [
+     0,
+     2,
+     7,
+     39,
+     652
+    ]
+   ],
+   "classes": [
+    "Pathogenic",
+    "Likely pathogenic",
+    "Uncertain significance",
+    "Likely benign",
+    "Benign"
+   ]
+  },
+  "importance_gain_top": {
+   "points": 304741.1,
+   "log_af": 200918.6,
+   "pts_PVS1": 70181.5,
+   "missense_score": 64709.1,
+   "cons_utr3": 35788.3,
+   "pLI": 34879.5,
+   "pts_BP7": 26167.4,
+   "loftool": 25990.8,
+   "hom": 22928.3,
+   "haploinsufficient": 15041.3,
+   "cons_synonymous": 12897.0,
+   "splice_score": 12675.2,
+   "cons_missense": 9481.0,
+   "cons_utr5": 5311.6,
+   "dominant": 5289.5
+  }
+ },
+ "extractor_report": {
+  "train_documents": 838,
+  "test_documents": 292,
+  "train_mentions": 1674,
+  "test_mentions": 652,
+  "crf_exact": {
+   "precision": 0.8919,
+   "recall": 0.7975,
+   "f1": 0.8421,
+   "tp": 520,
+   "fp": 63,
+   "fn": 132
+  },
+  "crf_overlap": {
+   "precision": 0.9537,
+   "recall": 0.8567,
+   "f1": 0.9026,
+   "tp": 556,
+   "fp": 27,
+   "fn": 93
+  },
+  "rules_exact": {
+   "precision": 0.8558,
+   "recall": 0.5736,
+   "f1": 0.6869,
+   "tp": 374,
+   "fp": 63,
+   "fn": 278
+  },
+  "rules_overlap": {
+   "precision": 0.9565,
+   "recall": 0.6411,
+   "f1": 0.7677,
+   "tp": 418,
+   "fp": 19,
+   "fn": 234
+  },
+  "crf_exact_tmVar": {
+   "precision": 0.8905,
+   "recall": 0.7716,
+   "f1": 0.8268,
+   "tp": 358,
+   "fp": 44,
+   "fn": 106
+  },
+  "rules_exact_tmVar": {
+   "precision": 0.8841,
+   "recall": 0.5754,
+   "f1": 0.6971,
+   "tp": 267,
+   "fp": 35,
+   "fn": 197
+  },
+  "crf_exact_SETH": {
+   "precision": 0.895,
+   "recall": 0.8617,
+   "f1": 0.878,
+   "tp": 162,
+   "fp": 19,
+   "fn": 26
+  },
+  "rules_exact_SETH": {
+   "precision": 0.7926,
+   "recall": 0.5691,
+   "f1": 0.6625,
+   "tp": 107,
+   "fp": 28,
+   "fn": 81
+  },
+  "mutationfinder_doc_level_crf_plus_rules": {
+   "precision": 0.974,
+   "recall": 0.708,
+   "f1": 0.82,
+   "tp": 337,
+   "fp": 9,
+   "fn": 139
+  },
+  "mutationfinder_doc_level_rules": {
+   "precision": 0.9712,
+   "recall": 0.708,
+   "f1": 0.819,
+   "tp": 337,
+   "fp": 10,
+   "fn": 139
+  },
+  "mutationfinder_test_documents": 508
+ },
+ "verifier_report": {
+  "train_sentences": 19080,
+  "test_sentences": 6274,
+  "auroc": 0.9915,
+  "accuracy_with_hard_rules": 0.9654,
+  "per_perturbation": {
+   "code": {
+    "n": 58,
+    "accuracy": 0.9828
+   },
+   "gene": {
+    "n": 543,
+    "accuracy": 0.9982
+   },
+   "negation": {
+    "n": 452,
+    "accuracy": 0.9336
+   },
+   "number": {
+    "n": 567,
+    "accuracy": 0.9171
+   },
+   "paraphrase": {
+    "n": 1503,
+    "accuracy": 0.99
+   },
+   "swap": {
+    "n": 258,
+    "accuracy": 0.5349
+   },
+   "verbatim": {
+    "n": 1442,
+    "accuracy": 1.0
+   },
+   "wrong_citation": {
+    "n": 1451,
+    "accuracy": 0.9979
+   }
+  },
+  "coefficients": {
+   "tok_recall": -2.779,
+   "bigram_recall": 10.483,
+   "best_sent": 3.225,
+   "num_ok": 6.865,
+   "gene_ok": 7.004,
+   "code_ok": 5.234,
+   "hgvs_ok": 0.295,
+   "neg_agree": 7.418,
+   "len_ratio": 1.637,
+   "has_cite": 0.141,
+   "class_ok": 0.609,
+   "antonym_ok": 5.582
+  },
+  "intercept": -41.377
+ },
+ "reranker_report": {
+  "synthetic_queries": 2995,
+  "queries_with_positive_candidate": 2994,
+  "training_rows": 239500,
+  "validation_queries": 599,
+  "best_iteration": 115,
+  "validation_ndcg@5": 0.989,
+  "validation_ndcg@10": 0.9906,
+  "importance_gain": {
+   "bm25_rank": 225503.2,
+   "bm25_norm": 18008.5,
+   "entity_rank": 14362.4,
+   "title_coverage": 8103.0,
+   "len_log": 4932.7,
+   "gene_in_genes": 3926.7,
+   "q_coverage": 3279.3,
+   "kind_gene": 2291.5,
+   "intent_literature": 2112.2,
+   "intent_x_kind_literature": 1729.5,
+   "bm25": 1353.0,
+   "sif": 939.4,
+   "dual": 839.8,
+   "kind_disease": 817.8,
+   "kind_guidance": 741.9,
+   "kind_phenotype": 663.0,
+   "sif_rank": 594.5,
+   "rrf_rank": 568.7,
+   "n_query_genes": 554.7,
+   "kind_literature": 386.5,
+   "intent_disease": 351.2,
+   "rrf": 346.4,
+   "kind_rank": 281.7,
+   "dual_rank": 250.2,
+   "gene_in_source": 128.7,
+   "intent_phenotype": 104.1,
+   "n_generators": 87.4,
+   "intent_x_kind_disease": 72.1,
+   "intent_gene": 69.6,
+   "hpo_match": 67.4,
+   "intent_x_kind_phenotype": 46.9,
+   "disease_match": 43.4,
+   "intent_x_kind_gene": 29.8,
+   "intent_x_kind_guidance": 3.3,
+   "pmid_match": 0.0,
+   "code_match": 0.0,
+   "intent_guidance": 0.0,
+   "n_query_codes": 0.0
+  }
+ },
+ "index_report": {
+  "passages": 37881,
+  "bm25_terms": 68738,
+  "dense": {
+   "vocab": 23953,
+   "steps": 876,
+   "loss_start": 1.2229450315237045,
+   "loss_end": 0.6247487179934978
+  },
+  "seconds": 85.4
+ },
+ "passages_stats": {
+  "passages": 37881,
+  "by_kind": {
+   "phenotype": 16449,
+   "disease": 12687,
+   "literature": 4466,
+   "gene": 4203,
+   "guidance": 76
+  },
+  "words": 2169115
+ },
+ "rules": {
+  "selected": {
+   "rules": {
+    "bs1_af_dominant": 0.003,
+    "bs1_af_recessive": 0.01,
+    "pm1_window": 10,
+    "pm1_min_plp": 3,
+    "pp2_max_benign_frac": 0.1,
+    "pp2_min_plp": 5,
+    "bs2_hom_min": 5
+   },
+   "balanced_accuracy_3tier": 0.708,
+   "accuracy_3tier": 0.7285,
+   "exact_5tier": 0.4664,
+   "severe_discordance_rate": 0.00364
+  },
+  "default": {
+   "rules": {
+    "bs1_af_dominant": 0.001,
+    "bs1_af_recessive": 0.01,
+    "pm1_window": 10,
+    "pm1_min_plp": 5,
+    "pp2_max_benign_frac": 0.1,
+    "pp2_min_plp": 10,
+    "bs2_hom_min": 3
+   },
+   "balanced_accuracy_3tier": 0.6984,
+   "accuracy_3tier": 0.7221,
+   "exact_5tier": 0.4612,
+   "severe_discordance_rate": 0.00424
+  },
+  "searched": 648
+ },
+ "splits": {
+  "frozen_utc": "2026-10-16T17:10:27+00:00",
+  "blind_sha256": "136ffc28425ec473c349e9e1e5d210e2df5d31d821412c022e5cecc7b5adf9cd",
+  "blind_n": 8733,
+  "blind_classes": {
+   "Pathogenic": 4868,
+   "Benign": 1577,
+   "Likely benign": 1307,
+   "Uncertain significance": 774,
+   "Likely pathogenic": 207
+  },
+  "blind_panels": {
+   "ENIGMA (BRCA1, BRCA2)": 6031,
+   "InSiGHT (mismatch repair)": 2113,
+   "CFTR2": 254,
+   "ClinGen RASopathy expert panel": 232,
+   "ClinGen inherited cardiomyopathy expert panel": 102,
+   "PharmGKB": 1
+  },
+  "blind_genes": 17,
+  "dev_n": 3300,
+  "dev_classes": {
+   "Likely benign": 700,
+   "Pathogenic": 700,
+   "Benign": 700,
+   "Uncertain significance": 700,
+   "Likely pathogenic": 500
+  },
+  "dev_genes": 1112,
+  "pool_n": 269419,
+  "pool_classes": {
+   "Uncertain significance": 137366,
+   "Likely benign": 71099,
+   "Benign": 23290,
+   "Pathogenic": 21179,
+   "Likely pathogenic": 16485
+  }
+ },
+ "knowledge_base": {
+  "variants": 341374,
+  "variants_seen_in_gnomad": 179425,
+  "genes": 5561,
+  "genes_with_exon_model": 2782,
+  "genes_with_diseases": 3983,
+  "diseases": 12687,
+  "hpo_terms": 19034,
+  "literature_documents": 2168,
+  "literature_by_corpus": {
+   "MutationFinder": 813,
+   "SETH": 630,
+   "tmVar": 500,
+   "Variome": 120,
+   "OSIRIS": 105
+  },
+  "literature_variant_links": 1623,
+  "graph": {
+   "nodes": 445822,
+   "edges": 2203144,
+   "node_types": {
+    "variant": 340286,
+    "publication": 57477,
+    "trait": 18539,
+    "disease": 12687,
+    "phenotype": 11272,
+    "gene": 5561
+   },
+   "edge_types": {
+    "cited_in": 1031721,
+    "asserted_for": 557236,
+    "in_gene": 340286,
+    "has_phenotype": 253328,
+    "associated_with": 12302,
+    "same_as": 6583,
+    "mentions_gene": 1307,
+    "mentions_variant": 381
+   }
+  },
+  "raw_files": 1187,
+  "raw_mb": 236.0
+ }
+}

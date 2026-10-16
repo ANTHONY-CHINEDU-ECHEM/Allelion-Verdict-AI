@@ -1,0 +1,130 @@
+{
+ "note": "Slices of the single stored blind run. Nothing here re-scores the blind set.",
+ "all": {
+  "n": 8733,
+  "accuracy_3tier": 0.6123,
+  "severe_discordance": 68,
+  "severe_discordance_rate": 0.00779
+ },
+ "brca1_alternate_isoform": {
+  "n": 1327,
+  "accuracy_3tier": 0.15,
+  "severe_discordance": 59,
+  "severe_discordance_rate": 0.04446
+ },
+ "outside_alternate_isoform": {
+  "n": 7406,
+  "accuracy_3tier": 0.6951,
+  "severe_discordance": 9,
+  "severe_discordance_rate": 0.00122
+ },
+ "alternate_isoform_with_canonical_truncating_annotation": {
+  "n": 1002,
+  "accuracy_3tier": 0.011,
+  "severe_discordance": 59,
+  "severe_discordance_rate": 0.05888,
+  "reference": {
+   "P/LP": 1002
+  },
+  "predicted": {
+   "VUS": 932,
+   "B/LB": 59,
+   "P/LP": 11
+  }
+ },
+ "severe_by_gene_and_consequence": [
+  {
+   "gene": "BRCA1",
+   "consequence": "intron",
+   "n": 59
+  },
+  {
+   "gene": "BRCA2",
+   "consequence": "missense",
+   "n": 2
+  },
+  {
+   "gene": "CFTR",
+   "consequence": "inframe_indel",
+   "n": 1
+  },
+  {
+   "gene": "HRAS",
+   "consequence": "missense",
+   "n": 1
+  },
+  {
+   "gene": "MSH2",
+   "consequence": "intron",
+   "n": 1
+  },
+  {
+   "gene": "MSH6",
+   "consequence": "missense",
+   "n": 1
+  },
+  {
+   "gene": "PMS2",
+   "consequence": "missense",
+   "n": 2
+  },
+  {
+   "gene": "SHOC2",
+   "consequence": "missense",
+   "n": 1
+  }
+ ],
+ "severe_on_alternate_isoform": 59,
+ "reference_benign_predicted": {
+  "Uncertain significance": 1724,
+  "Likely benign": 1064,
+  "Benign": 95,
+  "Likely pathogenic": 1
+ },
+ "reference_benign_by_consequence": {
+  "intron": 1361,
+  "synonymous": 1176,
+  "missense": 254,
+  "utr3": 27,
+  "other": 27,
+  "upstream": 27
+ },
+ "by_panel_outside_isoform": {
+  "CFTR2": {
+   "n": 254,
+   "accuracy_3tier": 0.6772,
+   "severe_discordance": 1,
+   "severe_discordance_rate": 0.00394
+  },
+  "ClinGen RASopathy expert panel": {
+   "n": 232,
+   "accuracy_3tier": 0.6638,
+   "severe_discordance": 2,
+   "severe_discordance_rate": 0.00862
+  },
+  "ClinGen inherited cardiomyopathy expert panel": {
+   "n": 102,
+   "accuracy_3tier": 0.7059,
+   "severe_discordance": 0,
+   "severe_discordance_rate": 0.0
+  },
+  "ENIGMA (BRCA1, BRCA2)": {
+   "n": 4704,
+   "accuracy_3tier": 0.6769,
+   "severe_discordance": 2,
+   "severe_discordance_rate": 0.00043
+  },
+  "InSiGHT (mismatch repair)": {
+   "n": 2113,
+   "accuracy_3tier": 0.7411,
+   "severe_discordance": 4,
+   "severe_discordance_rate": 0.00189
+  },
+  "PharmGKB": {
+   "n": 1,
+   "accuracy_3tier": 0.0,
+   "severe_discordance": 0,
+   "severe_discordance_rate": 0.0
+  }
+ }
+}
