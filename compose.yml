@@ -1,0 +1,20 @@
+services:
+  allelion:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data:/app/data
+      - ./reports:/app/reports
+    environment:
+      ALLELION_LLM: ${ALLELION_LLM:-}
+      OLLAMA_URL: ${OLLAMA_URL:-http://ollama:11434}
+      OLLAMA_MODEL: ${OLLAMA_MODEL:-llama3.1:8b}
+  # Optional local language model for the copilot writer: `docker compose --profile llm up`
+  ollama:
+    image: ollama/ollama:latest
+    profiles: ["llm"]
+    volumes:
+      - ollama:/root/.ollama
+volumes:
+  ollama: {}
