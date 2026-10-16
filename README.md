@@ -2,6 +2,9 @@
 
 **A germline variant interpretation platform that applies the ACMG/AMP criteria with cited evidence, calibrated predictors and a verified evidence copilot, benchmarked once against 8,733 expert panel classifications.**
 
+
+<img width="1000" height="563" alt="image" src="https://github.com/user-attachments/assets/1d06f90d-ea80-4f66-a99b-4c1ff4605e4d" />
+
 ## Project brief
 
 Every clinical genetic test ends with the same question: is this variant the cause of the patient's condition? The answer is written as one of five classes (pathogenic, likely pathogenic, uncertain significance, likely benign, benign) using the framework published by the American College of Medical Genetics and Genomics and the Association for Molecular Pathology in 2015 and refined since by the ClinGen Sequence Variant Interpretation working group. Applying it means checking 28 criteria against population databases, transcript structure, computational predictions, previously classified variants, functional studies, family segregation and the patient's phenotype, then combining the evidence. It is slow, specialist work, laboratories disagree on thousands of variants, and a single class can decide whether a person is offered surgery, surveillance or nothing at all.
@@ -39,36 +42,50 @@ To run the full service with all 341,374 variants, see [Running it](#running-it)
 
 ## Screenshots
 
-[![Classify a variant](docs/images/classifier.png)](docs/images/classifier.png)
+<img width="1440" height="1000" alt="classifier" src="https://github.com/user-attachments/assets/067d8e45-a7d4-4ed9-8363-6f98771ce63d" />
+
 **Classify a variant.** MYH7 c.1208G>A (p.Arg403Gln) reaches likely pathogenic with six points from PM1, PM2_Supporting, PM5_Supporting, PP2 and PP3; the cardiomyopathy panel classifies it pathogenic with case data the engine does not see.
 
-[![Evidence copilot](docs/images/copilot.png)](docs/images/copilot.png)
+<img width="1440" height="1000" alt="copilot" src="https://github.com/user-attachments/assets/f6970e25-247e-4b99-a01f-e558ecedd818" />
+
 **Evidence copilot.** Every sentence cites a numbered evidence item and is checked against it; the engine's own criteria appear as evidence beside curated sources.
 
-[![Evaluation](docs/images/evaluation.png)](docs/images/evaluation.png)
+<img width="1440" height="2199" alt="evaluation" src="https://github.com/user-attachments/assets/743bc22e-fc3b-405c-810e-e3487fa617e9" />
+
 **Evaluation.** The single blind run against 8,733 expert panel classifications, with the confusion matrix, results by panel, ablations and posterior reliability.
 
-[![Gene explorer](docs/images/genes.png)](docs/images/genes.png)
+<img width="1440" height="2015" alt="genes" src="https://github.com/user-attachments/assets/0614ec69-f593-4c5a-82db-db50dbb00c5d" />
+
 **Gene explorer.** MLH1 with its constraint, inheritance, ClinVar spectrum, protein map and anchored exon model.
 
-[![Calibration lab](docs/images/calibration.png)](docs/images/calibration.png)
+<img width="1440" height="1000" alt="calibration" src="https://github.com/user-attachments/assets/2f45b4a8-f85a-4546-bfc1-23384bfac4cc" />
+
 **Calibration lab.** Predictor scores mapped to local posterior probabilities with bootstrap bands and the evidence strength thresholds.
 
-[![Conflicts](docs/images/conflicts.png)](docs/images/conflicts.png)
+<img width="1440" height="1000" alt="conflicts" src="https://github.com/user-attachments/assets/aa50d787-4ce9-49a4-a288-a3110c158fe2" />
+
 **Conflicts.** Variants with disagreeing submissions next to the engine's verdict and the criteria behind it.
 
-[![Phenotype matcher](docs/images/phenotype.png)](docs/images/phenotype.png)
+<img width="1440" height="1000" alt="phenotype" src="https://github.com/user-attachments/assets/9af87c82-c002-415e-94a0-8a7c5dbf0c07" />
+
 **Phenotype matcher.** Arachnodactyly, ectopia lentis and aortic root aneurysm rank FBN1 first.
 
-[![Knowledge graph](docs/images/graph.png)](docs/images/graph.png)
+<img width="1440" height="1000" alt="graph" src="https://github.com/user-attachments/assets/703e357c-bd77-4880-88ca-830a70be592e" />
+
 **Knowledge graph.** FBN1 with its diseases, the phenotype terms they share, pathogenic variants and publications.
 
-[![Batch triage](docs/images/batch.png)](docs/images/batch.png)
+<img width="1440" height="1000" alt="batch" src="https://github.com/user-attachments/assets/1f426e09-7bb2-41ab-8515-01df38da85dd" />
+
 **Batch triage.** Six variants classified at once, with the learned verdict and the ClinVar reference. CFTR p.Phe508del shows a documented failure: the carrier frequency of this recessive founder allele exceeds the BS1 threshold, so the engine calls it likely benign.
 
-| Dark theme | Phone |
-|---|---|
-| [![Dark theme](docs/images/dark.png)](docs/images/dark.png) | [![Phone](docs/images/mobile.png)](docs/images/mobile.png) |
+DARK THEME
+
+<img width="1440" height="1000" alt="dark" src="https://github.com/user-attachments/assets/0ce023c1-907b-46bd-8e6e-7a838b3a3a1a" />
+
+PHONE
+
+<img width="780" height="1688" alt="mobile" src="https://github.com/user-attachments/assets/b4954b9e-2a05-496f-9446-501371c5b01f" />
+
 
 ## Results
 
@@ -84,7 +101,8 @@ To run the full service with all 341,374 variants, see [Running it](#running-it)
 
 Three tier merges pathogenic with likely pathogenic and benign with likely benign. Severe discordance is a pathogenic or likely pathogenic reference called benign or likely benign, or the reverse.
 
-![Blind confusion matrix](reports/figures/blind_confusion.png)
+<img width="872" height="659" alt="blind_confusion" src="https://github.com/user-attachments/assets/f4f31f45-2d70-45a5-bdcb-aad86427bc4e" />
+
 
 | Expert panel | Variants | Three tier | Severe |
 |---|---|---|---|
@@ -108,7 +126,8 @@ ClinVar displays many BRCA1 variants on NM_007298.3, an isoform that skips exon 
 
 ### Ablations on the blind set
 
-![Ablations](reports/figures/blind_ablations.png)
+<img width="1297" height="552" alt="blind_ablations" src="https://github.com/user-attachments/assets/7a90e9b4-dda7-49fd-9338-04ce84ca1f64" />
+
 
 Removing PVS1 drops three tier agreement from 61.2% to 21.0%; removing the computational criteria drops it to 52.2% but cuts the severe rate from 0.78% to 0.09%, which locates most of the remaining risk in PP3, BP4 and BP7.
 
